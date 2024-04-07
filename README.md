@@ -1,0 +1,1 @@
+# psOff emulator compatibility list
