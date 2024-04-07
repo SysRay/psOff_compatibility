@@ -78,7 +78,7 @@ body:
     id: terms
     attributes:
       label: Yes, I agree
-      description: By submitting this issue, you confirm that your issue was created in accordance with all the rules, described in README.md
+      description: By checking this, you confirm that your issue was created in accordance with all the rules, described in README.md
       options:
         - label: Yes, I can confirm that
           required: true
