@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this report!
-        Please, read the [README](README.md) before filing your issue.
+        Please, read the [README](/README.md) before filing your issue.
   - type: textarea
     id: what-happened
     attributes:
