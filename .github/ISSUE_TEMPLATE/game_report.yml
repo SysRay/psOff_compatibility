@@ -81,5 +81,5 @@ body:
       label: Yes, I agree
       description: By checking this, you confirm that your issue was created in accordance with all the rules, described in README.md
       options:
-        - label: Yes, I can confirm that
+        - label: Yes, I read the rules and did everything according to them
           required: true
