@@ -45,8 +45,8 @@ body:
         You may put commit URL/SHA or GitHub Action id there.
         If you don't know what it is, leave this field blank.
       placeholder: N/A
-      validations:
-        required: false
+    validations:
+      required: false
   - type: textarea
     id: log-area
     attributes:
