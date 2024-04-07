@@ -58,7 +58,6 @@ body:
         Before uploading it you should completely close
         your emulator!
       placeholder: No logs :(
-      value: ""
     validations:
       required: true
   - type: textarea
@@ -67,7 +66,6 @@ body:
       label: Upload your screenshots there
       description: You may take game's screenshots if you want. This is not necessary, but we would be grateful.
       placeholder: No screenshots :(
-      value: ""
     validations:
       required: false
   - type: checkboxes
