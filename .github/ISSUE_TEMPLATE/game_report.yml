@@ -13,7 +13,6 @@ body:
       label: Please, describe what you get
       description: Is your game crashing, hangs or something else?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
@@ -46,17 +45,16 @@ body:
         You may put commit URL/SHA or GitHub Action id there.
         If you don't know what it is, leave this field blank.
       placeholder: N/A
+      validations:
+        required: false
   - type: textarea
     id: log-area
     attributes:
       label: Upload your log there
       description: |
-        Your emulator should generate logs in P7Logs folder,
-        check it and upload the latest log there. If you don't
-        have such folder, check you config/logging.json file,
-        the "sink" parameter should be equal to "FileBin".
-        Before uploading it you should completely close
-        your emulator!
+        Your emulator should generate logs in P7Logs folder, check it and upload the latest log there.
+        If you don't have such folder, check you config/logging.json file,  the "sink" parameter
+        should be equal to "FileBin". Before uploading it you should completely close your emulator!
       placeholder: No logs :(
     validations:
       required: true
