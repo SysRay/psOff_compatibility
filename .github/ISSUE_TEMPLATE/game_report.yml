@@ -29,7 +29,6 @@ body:
     attributes:
       label: Current game status
       options:
-        - ""
         - Playable
         - Ingame
         - Intro
