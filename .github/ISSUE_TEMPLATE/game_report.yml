@@ -29,10 +29,13 @@ body:
     attributes:
       label: Current game status
       options:
+        - ""
         - Playable
         - Ingame
         - Intro
         - Nothing
+    validation:
+      required: true
   - type: dropdown
     id: version
     attributes:
@@ -41,8 +44,6 @@ body:
       options:
         - v.0.4-beta (Default)
         - v.0.3-beta
-        - v.0.2-beta
-        - v.0.1-beta
       default: 0
     validations:
       required: true
