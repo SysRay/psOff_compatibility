@@ -34,7 +34,7 @@ body:
         - Ingame
         - Intro
         - Nothing
-    validation:
+    validations:
       required: true
   - type: dropdown
     id: version
