@@ -1,5 +1,7 @@
 # psOff emulator compatibility list
 
+This is a compatibility list for [PS4 emulator, psOff](https://github.com/SysRay/psOff_public)
+
 ## Issue creating rules
 1. Make sure there is no issue posted for your game already;
 2. You should strictly follow the issue template;
