@@ -4,7 +4,7 @@ This is a compatibility list for [PS4 emulator, psOff](https://github.com/SysRay
 
 ## Issue creating rules
 1. Make sure there is no issue posted for your game already;
-2. We accept issues only in English;
+2. We accept issues only in English, but it's ok if provided screenshots/videos contains non-English text;
 3. You should strictly follow the issue template;
 4. Log files are required. Issues without logs will be closed in 24 hrs;
 5. Try to provide as much info as possible, this is the key to solving your issue;
