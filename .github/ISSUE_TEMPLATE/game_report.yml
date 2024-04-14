@@ -35,18 +35,29 @@ body:
         - Nothing
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: input
+    id: emu-version
     attributes:
-      label: Version
-      description: What version of emulator are you running?
-      options:
-        - v.0.5-beta
-        - v.0.4-beta (Default)
-        - v.0.3-beta
-      default: 1
+      label: Your emulator version
+      description: |
+        It should be printed in your terminal every time
+        you run the emulator. Type `emulator.exe --help`
+        to check your current version.
+      placeholder: 'release #0000 | devdrop #0000'
     validations:
       required: true
+#  - type: dropdown
+#    id: version
+#    attributes:
+#      label: Version
+#      description: What version of emulator are you running?
+#      options:
+#        - v.0.5-beta
+#        - v.0.4-beta (Default)
+#        - v.0.3-beta
+#      default: 1
+#    validations:
+#      required: true
   - type: input
     id: lib-version
     attributes:
