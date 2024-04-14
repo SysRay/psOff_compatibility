@@ -41,9 +41,10 @@ body:
       label: Version
       description: What version of emulator are you running?
       options:
+        - v.0.5-beta
         - v.0.4-beta (Default)
         - v.0.3-beta
-      default: 0
+      default: 1
     validations:
       required: true
   - type: input
