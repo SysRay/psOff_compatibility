@@ -43,7 +43,7 @@ body:
         It should be printed in your terminal every time
         you run the emulator. Type `emulator.exe --help`
         to check your current version.
-      placeholder: 'release #0000 | devdrop #0000'
+      placeholder: 'v.0.5-preview-0'
     validations:
       required: true
 #  - type: dropdown
