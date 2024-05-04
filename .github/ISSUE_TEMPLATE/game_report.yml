@@ -42,7 +42,7 @@ body:
       label: Your renderer version
       description: |
         It should be printed in your terminal every time
-        you run the emulator. Type `emulator.exe --help`
+        you run the emulator. Type `psoff.exe --help`
         in your command prompt to check your current version.
         Or just take a look at the emulator's title bar.
       placeholder: 'v.0.5-preview-0'
