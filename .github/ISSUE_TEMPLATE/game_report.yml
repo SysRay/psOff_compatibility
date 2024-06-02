@@ -39,37 +39,15 @@ body:
   - type: input
     id: emu-version
     attributes:
-      label: Your renderer version
+      label: Your emulator version
       description: |
         It should be printed in your terminal every time
         you run the emulator. Type `psoff.exe --help`
         in your command prompt to check your current version.
         Or just take a look at the emulator's title bar.
-      placeholder: 'v.0.5-preview-0'
+      placeholder: 'v.0.5'
     validations:
       required: true
-#  - type: dropdown
-#    id: version
-#    attributes:
-#      label: Version
-#      description: What version of emulator are you running?
-#      options:
-#        - v.0.5-beta
-#        - v.0.4-beta (Default)
-#        - v.0.3-beta
-#      default: 1
-#    validations:
-#      required: true
-  - type: input
-    id: lib-version
-    attributes:
-      label: Your psOff version
-      description: |
-        You may put commit URL/SHA or GitHub Action id there.
-        If you don't know what it is, leave this field blank.
-      placeholder: N/A
-    validations:
-      required: false
   - type: textarea
     id: log-area
     attributes:
