@@ -41,11 +41,11 @@ body:
     attributes:
       label: Your emulator version
       description: |
-        It should be printed in your terminal every time
-        you run the emulator. Type `psoff.exe --help`
-        in your command prompt to check your current version.
-        Or just take a look at the emulator's title bar.
-      placeholder: 'v.0.5'
+        The current emulator version equals to the
+        day archive got released. This field will be
+        filled automatically if you use GameReport
+        feature in psOff emulator.
+      placeholder: '23 Sep 2024'
     validations:
       required: true
   - type: textarea
@@ -54,8 +54,6 @@ body:
       label: Upload your log there
       description: |
         Your emulator should generate logs in P7Logs folder, check it and upload the latest log there.
-        If you don't have such folder, check you config/logging.json file,  the "sink" parameter
-        should be equal to "FileBin". Before uploading it you should completely close your emulator!
       placeholder: No logs :(
     validations:
       required: true
@@ -63,7 +61,8 @@ body:
     id: screenshot-area
     attributes:
       label: Upload your screenshots there
-      description: You may take game's screenshots if you want. This is not necessary, but we would be grateful.
+      description: |
+        You may take game's screenshots if you want. This is not necessary, but we would be grateful.
       placeholder: No screenshots :(
     validations:
       required: false
@@ -71,7 +70,8 @@ body:
     id: terms
     attributes:
       label: Yes, I agree
-      description: By checking this, you confirm that your issue was created in accordance with all the rules, described in README.md
+      description: |
+        By checking this, you confirm that your issue was created in accordance with all the rules, described in README.md
       options:
         - label: Yes, I read the rules and did everything according to them
           required: true
