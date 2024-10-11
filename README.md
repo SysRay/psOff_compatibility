@@ -1,8 +1,21 @@
-# psOff emulator compatibility list
+# psOff_premium - PlayStation 4 Emulation (Windows)
+Offline, no PSN account required.
 
-This is a compatibility list for [PS4 emulator, psOff](https://github.com/SysRay/psOff_public)
+<div align="center">
+  
+| Discord |
+|---------|
+| [<img src="https://img.shields.io/discord/1215784508708749322?color=5865F2&label=ps_off&logo=discord&logoColor=white"/>](https://discord.gg/Jd2AuBN6eW) |
 
-## Issue creating rules
+</div>
+
+Emulator is in closed alpha until the rendering part is ported. 
+No rendering, yet! Working on it.
+
+
+
+
+## Compatibility list - Issue creating rules
 1. Make sure there is no issue posted for your game already;
 2. We accept issues only in English, but it's ok if provided screenshots/videos contains non-English text;
 3. You should strictly follow [the template](https://github.com/SysRay/psOff_compatibility/issues/new?template=game_report.yml) and do not create issues without using it;
