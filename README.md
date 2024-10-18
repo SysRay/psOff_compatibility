@@ -11,7 +11,8 @@ Offline, no PSN account required.
 
 Emulator is in closed alpha until the rendering part is ported. 
 No rendering, yet! Working on it.
-You can track our progress here: https://github.com/users/SysRay/projects/5
+
+You can track our progress [here](https://github.com/users/SysRay/projects/5).
 
 
 
