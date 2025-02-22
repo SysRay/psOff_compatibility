@@ -1,20 +1,20 @@
-# Emulator translation files
+# Emulator Translation Files
 
-This folder contains files for translating the emulator user interface into other languages. You can correct existing files or add new ones using the GitHub Pull Request feature. Every new release of the emulator is synchronized with this folder.
+This folder contains files for translating the emulator’s user interface into various languages. You can edit existing files or add new ones using the GitHub Pull Request feature. Each new emulator release is synchronized with this folder.
 
 ## Rules
-1. The translation must be written by a person who knows the language well or is a native speaker of it;
-2. The translation must not contain offensive or derogatory language that may offend the reader;
-3. The only lines that do not need to be translated are those that start with two hash signs (#), these are lines for local use only;
-3. Incomplete translations are allowed;
-4. Each proposed translation will be checked for correctness and absence of insults using artificial intelligence;
-5. Every user who suggests own translation or correction of an existing translation will be included in the emulator's thank you list, unless the user explicitly requests otherwise.
+1. Translations must be written by someone who is fluent in the target language or a native speaker.
+2. Translations must not contain offensive or derogatory language that could offend readers.
+3. Lines beginning with two hash signs (##) are for local use only and do not require translation.
+4. Incomplete translations are permitted.
+5. All proposed translations will be reviewed for accuracy and appropriateness using artificial intelligence to ensure they are free of errors and insults.
+6. Contributors who submit a new translation or correct an existing one will be acknowledged in the emulator’s “Thank You” list, unless they explicitly request otherwise.
 
-## Known limitations
-* Our UI is built using the ImGui library, which does not support Arabic, accordingly its translation cannot be added to the mainstream until language support is available in the UI library. The language is still available in the select menu, as PS4 apps can support it and display text and/or use corresponding voiceover if available.
+## Known Limitations
+- The emulator’s UI is built using the ImGui library, which does not support Arabic. As a result, Arabic translations cannot be integrated into the main release until the UI library adds support for this language. However, Arabic remains available in the selection menu, as PS4 apps may support it and can display text or use corresponding voiceovers if available.
 
-## How do I translate the emulator into my language?
-1. Select the language you want to translate it to in the emulator settings. This will create a file with the language name in the "lang" folder inside emulator's root (e.g. `Russian.lang`);
-2. Open this file with any text editor and translate all lines (except those specified in rule 3) to the right of the equal sign;
-3. Check your translation as thoroughly as you can. Letters should not extend beyond the UI widgets, all text should be readable. If any letters in your translation appear as question marks (?) mention this in your future Pull Request, it is not an error on your part.
-4. Send the final file to this folder in this repository by creating a Pull Request. Your translation will be checked according to the rules described above and merged to the repository if no violations are found.
+## How to Translate the Emulator into Your Language
+1. In the emulator settings, select the language you wish to translate into. This will generate a file named after the language in the “lang” folder within the emulator’s root directory (e.g., `Russian.lang`).
+2. Open the file with any text editor and translate all lines to the right of the equal sign (except those specified in Rule 3).
+3. Review your translation carefully. Ensure that letters do not extend beyond the UI widgets and that all text remains readable. If any characters in your translation appear as question marks (?), note this in your Pull Request—it is not an error on your part.
+4. Submit the completed file to this folder in the repository by creating a Pull Request. Your translation will be evaluated according to the rules outlined above and merged into the repository if no issues are found.
