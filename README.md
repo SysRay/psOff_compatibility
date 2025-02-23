@@ -27,7 +27,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer), written i
 
 ### This project uses following third party open source libraries
 
-* [AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE) - AES encryption and decryption library
+* [AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE) - AES encryption and decryption library (removed since 2025Feb23, we use OpenSSL implementation now)
 * [alpaca](https://github.com/p-ranav/alpaca/blob/master/LICENSE) - Serialization C++17 library
 * [boost](https://www.boost.org/users/license.html) - Cross-platform portable wide-range development tools
 * [emhash](https://github.com/ktprime/emhash/blob/master/LICENSE) - Fast and memory efficient C++ flat hash map/set
