@@ -9,6 +9,14 @@ Offline, no PSN account required.
 
 </div>
 
+## About the Emulator
+
+psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
+
+### Main Developers:
+- **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
+- **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
+
 ## Compatibility List - Issue Creation Rules
 1. Ensure there is no existing issue for your game before posting.
 2. Issues must be submitted in English. However, screenshots or videos containing non-English text are acceptable.
@@ -27,14 +35,6 @@ Offline, no PSN account required.
 6. The report is labeled "hang" if the game freezes and becomes unresponsive to user input.
 7. The report is labeled "regression" if a new emulator version causes degraded performance, such as graphical rendering issues, missing or distorted sound, input problems, or the game failing to run entirely.
 8. The report is labeled “need-info” if it is incomplete or the developers request additional information.
-
-## About the Emulator
-
-psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
-
-### Main Developers:
-- **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
-- **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
 ### Third-Party Open-Source Libraries Used:
 - **[AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE)** - AES encryption and decryption library (removed since 2025Feb23, replaced with OpenSSL implementation).
