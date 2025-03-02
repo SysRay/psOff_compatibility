@@ -5,64 +5,73 @@ Offline, no PSN account required.
   
 | Discord |
 |---------|
-| [<img src="https://img.shields.io/discord/1215784508708749322?color=5865F2&label=ps_off&logo=discord&logoColor=white"/>](https://discord.gg/Jd2AuBN6eW) |
+| [<img src="https://img.shields.io/discord/1215784508708749322?color=5865F2&label=psOff emulator&logo=discord&logoColor=white"/>](https://discord.gg/Jd2AuBN6eW) |
 
 </div>
 
-## Compatibility list - Issue creating rules
-1. Make sure there is no issue posted for your game already;
-2. We accept issues only in English, but it's ok if provided screenshots/videos contains non-English text;
-3. Log files are required. Issues without logs will be closed in 24 hrs (the only exception is ingame with no issues and playable reports, if the game works perfectly fine for you then no need to include the log files);
-4. Every issue report you make should be posted **WITHOUT** community patches enabled;
-5. Try to provide as much info as possible, this is the key to solving your issue;
-6. Your log files should be in FileBin format \(*.p7d\). You cannot upload said files directly to GitHub, you should compress them into a zip/tar/7z archive and then attach the resulting archive to your issue.
+## Compatibility List - Issue Creation Rules
+1. Ensure there is no existing issue for your game before posting.
+2. Issues must be submitted in English. However, screenshots or videos containing non-English text are acceptable.
+3. Log files are mandatory. Issues without logs will be closed within 24 hours. (Exception: If the game runs perfectly with no issues, log files are optional.)
+4. Submit issue reports **WITHOUT** community patches enabled.
+5. Provide as much information as possible. Detailed information is crucial for resolving issues.
+6. Log files must be in FileBin format (`*.p7d`). Since these files cannot be uploaded directly to GitHub, compress them into a zip, tar, or 7z archive and attach the archive to your issue.
+7. Specifying the game engine in your report is encouraged, if known.
 
-## Some Info About the Emulator
+## Compatibility List - Issue Labeling Rules
+1. The game status is updated to "Intro" if the emulator can display at least one intro screen (audio/video or both) or reach the game's main menu in any form.
+2. The game status is updated to "Ingame" if the emulator can boot into the game's world. Additionally, the game is labeled “beat-request” if it shows stable performance (60+ fps or 30+ fps if the frame rate is limited by the game itself), the player can control the character without issues, and the game does not crash during the reported session.
+3. The game status is updated to "Playable" if the emulator maintains a stable frame rate, there are no memory leaks or critical graphical bugs, and the player can complete the game from start to finish without significant issues. If the game is infinite, the user should have no problem utilizing all of its core mechanics.
+4. The report is labeled "input" if it mentions problems with input using any gamepad backend (xinput, sdl, or keyboard) available in the emulator settings.
+5. The report is labeled "graphics" if there are rendering issues, such as missing game objects, flickering, incorrect colors, or a complete lack of image.
+6. The report is labeled "hang" if the game freezes and becomes unresponsive to user input.
+7. The report is labeled "regression" if a new emulator version causes degraded performance, such as graphical rendering issues, missing or distorted sound, input problems, or the game failing to run entirely.
+8. The report is labeled “need-info” if it is incomplete or the developers request additional information.
 
-psOff is a closed-source PlayStation 4 emulator (compatibility layer), written in C++20. This project is still in its early stages and many games won't work properly for a while longer, but we steadily improve compatibility and performance of the emulator through the time so keep in touch with us via Discord and our Compatibility tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
+## About the Emulator
 
-### Main developers:
-* Ray - project founder (GitHub: [@SysRay](https://github.com/SysRay))
-* Daydreamer - secondary developer (GitHub: [@igor725](https://github.com/igor725))
+psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
 
-### This project uses following third party open source libraries
+### Main Developers:
+- **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
+- **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
-* [AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE) - AES encryption and decryption library (removed since 2025Feb23, we use OpenSSL implementation now)
-* [alpaca](https://github.com/p-ranav/alpaca/blob/master/LICENSE) - Serialization C++17 library
-* [boost](https://www.boost.org/users/license.html) - Cross-platform portable wide-range development tools
-* [emhash](https://github.com/ktprime/emhash/blob/master/LICENSE) - Fast and memory efficient C++ flat hash map/set
-* [FFmpeg](https://www.ffmpeg.org/legal.html) - cross-platform multimedia library (Optional library, will be automatically installed on user's request)
-* [Fixed Containers](https://github.com/teslamotors/fixed-containers/blob/main/LICENSE) - C++20 constainers library
-* [googletest](https://github.com/google/googletest/blob/main/LICENSE) - Google Testing and Mocking Framework
-* [imgui](https://github.com/ocornut/imgui/blob/master/LICENSE.txt) - Bloat-free Graphical User interface
-* [libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md) - Logger and telemetry library
-* [libpng](https://github.com/pnggroup/libpng/blob/libpng16/LICENSE) - Protable Network Graphics library
-* [libzip](https://github.com/nih-at/libzip/blob/main/LICENSE) - A C library for managing zip archives
-* [magic_enum](https://github.com/Neargye/magic_enum/blob/master/LICENSE) - Static reflection for enums for modern C++
-* [nlohmann::json](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT) - JSON library for modern C++
-* [openssl](https://github.com/openssl/openssl/blob/master/LICENSE.txt) - TLS/SSL and crypto library
-* [pugixml](https://github.com/zeux/pugixml/blob/master/LICENSE.md) - Light-weight, simple and fast XML parser
-* [RenderDoc](https://github.com/baldurk/renderdoc/blob/v1.x/LICENSE.md) - Stand-alone graphics debugger
-* [SDL](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt) - Simple Directmedia Layer
-* [tracy](https://github.com/wolfpld/tracy/blob/master/LICENSE) - Graphics Frame profiler
-* [VMA](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/blob/master/LICENSE.txt) - Vulkan memory allocation library
-* [xxHash](https://github.com/Cyan4973/xxHash/blob/dev/LICENSE) - Extremely fast non-cryptographic hash algorithm
-* [zlib](https://www.zlib.net/zlib_license.html) - Cross-platform data compression/decompression library
-* [zydis](https://github.com/zyantific/zydis/blob/master/LICENSE) - Fast and light-weight x86/x86-64 disassembler and code generation library
+### Third-Party Open-Source Libraries Used:
+- **[AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE)** - AES encryption and decryption library (removed since 2025Feb23, replaced with OpenSSL implementation).
+- **[alpaca](https://github.com/p-ranav/alpaca/blob/master/LICENSE)** - Serialization library for C++17.
+- **[boost](https://www.boost.org/users/license.html)** - Cross-platform development tools.
+- **[emhash](https://github.com/ktprime/emhash/blob/master/LICENSE)** - Fast and memory-efficient C++ flat hash map/set.
+- **[FFmpeg](https://www.ffmpeg.org/legal.html)** - Cross-platform multimedia library (optional, installed on user request).
+- **[Fixed Containers](https://github.com/teslamotors/fixed-containers/blob/main/LICENSE)** - C++20 containers library.
+- **[googletest](https://github.com/google/googletest/blob/main/LICENSE)** - Google Testing and Mocking Framework.
+- **[imgui](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)** - Bloat-free graphical user interface.
+- **[libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md)** - Logger and telemetry library.
+- **[libpng](https://github.com/pnggroup/libpng/blob/libpng16/LICENSE)** - Portable Network Graphics library.
+- **[libzip](https://github.com/nih-at/libzip/blob/main/LICENSE)** - C library for managing zip archives.
+- **[magic_enum](https://github.com/Neargye/magic_enum/blob/master/LICENSE)** - Static reflection for enums in modern C++.
+- **[nlohmann::json](https://github.com/nlohmann/json/blob/develop/LICENSE.MIT)** - JSON library for modern C++.
+- **[openssl](https://github.com/openssl/openssl/blob/master/LICENSE.txt)** - TLS/SSL and cryptography library.
+- **[pugixml](https://github.com/zeux/pugixml/blob/master/LICENSE.md)** - Lightweight, fast XML parser.
+- **[RenderDoc](https://github.com/baldurk/renderdoc/blob/v1.x/LICENSE.md)** - Standalone graphics debugger.
+- **[SDL](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt)** - Simple DirectMedia Layer.
+- **[tracy](https://github.com/wolfpld/tracy/blob/master/LICENSE)** - Graphics frame profiler.
+- **[VMA](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/blob/master/LICENSE.txt)** - Vulkan memory allocation library.
+- **[xxHash](https://github.com/Cyan4973/xxHash/blob/dev/LICENSE)** - Extremely fast non-cryptographic hash algorithm.
+- **[zlib](https://www.zlib.net/zlib_license.html)** - Cross-platform data compression/decompression library.
+- **[zydis](https://github.com/zyantific/zydis/blob/master/LICENSE)** - Fast and lightweight x86/x86-64 disassembler and code generation library.
 
-### Gamepad emulation keybinds
-
-* **W, A, S, D** - Left Stick (If shift key is down, emulates L3 click)
-* **I, J, K, L** - Right Stick
-* **Up, Down, Left, Right** - DPad
-* **KpEnter, Enter** - Options
-* **Ctrl + T** - Touch pad click
-* **Q** - L1
-* **E** - L2
-* **U** - R1
-* **O** - R2
-* **M** - R3
-* **Z** - Square
-* **T** - Triangle
-* **X** - Cross
-* **C** - Circle
+### Gamepad Emulation Keybinds
+- **W, A, S, D** - Left Stick (Hold Shift to emulate L3 click).
+- **I, J, K, L** - Right Stick.
+- **Up, Down, Left, Right** - DPad.
+- **KpEnter, Enter** - Options.
+- **Ctrl + T** - Touchpad click.
+- **Q** - L1.
+- **E** - L2.
+- **U** - R1.
+- **O** - R2.
+- **M** - R3.
+- **Z** - Square.
+- **T** - Triangle.
+- **X** - Cross.
+- **C** - Circle.
