@@ -64,8 +64,7 @@
 &View_Settings.FirmTab=Прошивка
 &View_Settings.FirmTab.Lib=Путь до папки "common/lib" в прошивке
 &View_Settings.FirmTab.Lib.tt=Эта настройка должна быть либо пустой, либо содержать ПОЛНЫЙ путь до папки "common/lib" в корневой папке прошивке. Если это поле пустое, любые изменения в списке ниже будут проигнорированы.
-&View_Settings.FirmTab.ALib=##AllowedLibsGrid
-&View_Settings.FirmTab.ALib.tt=Здесь вы можете выбрать разрешенные для загрузки библиотеки прошивки. Если поле выше пустое, любые изменения в этом списке будут проигнорированы.
+&View_Settings.FirmTab.ALib.tt=Здесь вы можете выбрать разрешенные для загрузки библиотеки прошивки.\nЕсли поле выше пустое, любые изменения в этом списке будут проигнорированы.
 &View_Settings.AboutTab=О программе
 &View_Settings.AboutTab.HeadingText=psOff - это эмулятор (слой совместимости)  консоли PlayStation 4 с закрытым исходным кодом, написанный на C++20. Этот проект пребывает на своих ранних стадиях разработки и большинство игр из-за этого не будут работать нормально ещё какое-то время, но мы стабильно улучшаем совместимость и производительность эмулятора, вы можете следить за новостями эмулятора в нашем Discord сервере и в нашем трекере совместимости (ссылки находятся на конце этой страницы).\n\nОсновные разработчики:\n* Ray - основатель проекта (GitHub: @SysRay)\n* Daydreamer - второй разработчик (GitHub: @igor725)\n\nЭтот проект использует следующие сторонние библиотеки:\n
 &View_Settings.AboutTab.ThanksList=Отдельная благодарность следующим людям, помогавшим нам:
@@ -107,9 +106,7 @@
 &View_Base.Custom=Особ.
 &View_Base.Custom.tt=Нажмите этоу кнопку чтобы запустить нестандартное PS4 приложение.
 &View_Base.GamesFilterLabel=Фильтр списка
-&View_Base.GamesFilter=##LibraryFilter
 &View_Base.GamesFilter.tt=Используйте это поле, чтобы отфильтровать список библиотеки приложений.
-&View_Base.GamesList=##GamesGrid
 &View_Base.GamesList.tt=Этот список содержит все приложения, которые были найдены сканером.
 &Details_View.Settings=Настройки
 &Details_View.Settings.tt=Нажмите эту кнопку, чтобы открыть окно настроек эмулятора.
@@ -122,6 +119,17 @@
 &Details_View.GameFolder=Папка приложения
 &Details_View.SavesFolder=Папка сохранений
 &Details_View.Feedback=Обратная связь
+&Details_View.AppSpecific=Настройки приложения
+&Details_View.AppSpecific.FrameRate=Ограничение кадровой частоты
+&Details_View.AppSpecific.FrameRate.tt=Изменение этой настройки может привести к более плавной картинке,\nесли приложение поддерживает более высокую частоту кадров.
+&Details_View.AppSpecific.FrameRate.0=Стандартное
+&Details_View.AppSpecific.FrameRate.1=Глобальная настройка VSync
+&Details_View.AppSpecific.FrameRate.2=Форсировать VSync
+&Details_View.AppSpecific.FrameRate.3=Без ограничения
+&Details_View.AppSpecific.SkipMovies=Пропустить пререндеренные ролики, если возможно
+&Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все видеоролики,\nкоторые приложение попытается проиграть.
+&Details_View.AppSpecific.SkipAjm=Пропустить Audio Job Manager
+&Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все вызовы приложения к библиотеке libSceAjm.\nЕсли приложение использует эту библиотеку, это может привести к отсутствию звука.
 &Details_View.CommunityPatches=Доступные патчи сообщества
 &Details_View.Trophies=Трофеи
 &Details_View.Trophies.UnlockAt=Время получения

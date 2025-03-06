@@ -71,7 +71,6 @@
 &View_Settings.FirmTab=固件
 &View_Settings.FirmTab.Lib=固件目录"common/lib"路径
 &View_Settings.FirmTab.Lib.tt=此值必须为空或者包含到任意版本PS4固件目录的完整路径。\n\n如果在下方列表中未选中任何选项，这个设置将被忽略。
-&View_Settings.FirmTab.ALib=##AllowedLibsGrid
 &View_Settings.FirmTab.ALib.tt=此处可以选择需要从上方的PS4固件目录中载入的库。\n如果固件路径为空，所有的这些复选框都会被忽略。
 &View_Settings.AboutTab=关于
 &View_Settings.AboutTab.HeadingText=psOff是用C++20编写的一个闭源的PlayStation 4 模拟器 (兼容层)。此项目仍在初始阶段并且很多游戏在一段比较长的时间内都将不能正常运行，但是随着时间推移我们在稳步改进模拟器的兼容性和稳定性，因此请通过Discord和我们的Compatibility tracker保持关注。 (在此页面的底部有到这些资源的链接)。\n\n主要开发人员:\n* Ray - project founder (GitHub: @SysRay)\n* Daydreamer - secondary developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
@@ -93,10 +92,8 @@
 &View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
 &View_Base.Custom=自定义
 &View_Base.Custom.tt=按下此按钮来运行非标准应用程序。
-&View_Base.GamesFilter=##LibraryFilter
 &View_Base.GamesFilter.tt=使用此字段过滤下面的应用程序列表。
 &View_Base.GamesFilterLabel=库过滤器
-&View_Base.GamesList=##GamesGrid
 &View_Base.GamesList.tt=此列表包含扫描器找到的所有应用程序。
 &Details_View.Settings=设置
 &Details_View.Settings.tt=按下此按钮来打开模拟器设置窗口。

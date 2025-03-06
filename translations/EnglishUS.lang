@@ -112,6 +112,10 @@
 &Details_View.AppSpecific=Applictions specific settings
 &Details_View.AppSpecific.FrameRate=Frame limitation
 &Details_View.AppSpecific.FrameRate.tt=Changing this setting may result in a smoother picture if\nthe application supports a higher frame rate.
+&Details_View.AppSpecific.FrameRate.0=Application default
+&Details_View.AppSpecific.FrameRate.1=Global VSync setting
+&Details_View.AppSpecific.FrameRate.2=Force VSync
+&Details_View.AppSpecific.FrameRate.3=Unlocked
 &Details_View.AppSpecific.SkipMovies=Skip pre-rendered movies if possible
 &Details_View.AppSpecific.SkipMovies.tt=If this setting is active, the emulator will skip all pre-rendered\nmovies that the application tries to play back.
 &Details_View.AppSpecific.SkipAjm=Skip Audio Job Manager

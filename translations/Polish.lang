@@ -37,7 +37,6 @@
 &View_Settings.FirmTab=Oprogramowanie
 &View_Settings.FirmTab.Lib=Ścieżka do folderu oprogramowania "common/lib"
 &View_Settings.FirmTab.Lib.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania PS4 dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
-&View_Settings.FirmTab.ALib=##AllowedLibsGrid
 &View_Settings.FirmTab.ALib.tt=Tutaj możesz wybrać bibliotekę z oprogramowania PS4. Jeżeli ścieżka do oprogramowania jest pusta, to pole wyboru zostanie zignorowane.
 &View_Settings.AboutTab=Informacje
 &View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation 4, napisany w C++20. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
@@ -49,8 +48,6 @@
 &View_Base.Custom=Niestandardowe
 &View_Base.Custom.tt=Kliknij ten przycisk, jeśli chcesz uruchomić niestandardową aplikację.
 &View_Base.GamesFilterLabel=Filtr biblioteki
-&View_Base.GamesFilter=##LibraryFilter
-&View_Base.GamesList=##GamesGrid
 &View_Base.GamesList.tt=Lista zawiera wszystkie aplikacje znalezione przez skaner.
 &View_Settings.UsersTab.Enabled=Wybrani użytkownicy:
 &View_Settings.UsersTab.Enabled.tt=Jeżeli tutaj widzisz ostrzeżenia, lepiej je natychmiast naprawić, gdyż mogą prowadzić do problemów w aplikacjach.
