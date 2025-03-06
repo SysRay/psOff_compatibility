@@ -129,6 +129,7 @@
 &Details_View.AppSpecific.SkipMovies=Пропустить пререндеренные ролики, если возможно
 &Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все видеоролики,\nкоторые приложение попытается проиграть.
 &Details_View.AppSpecific.SkipAjm=Пропустить Audio Job Manager
+&Details_View.AppSpecific.SkipAjm.tt=Если эта настройка активна, эмулятор проигнорирует любые вызовы\nигры к библиотеке libSceAjm. Активация этой настройки\nможет исправить краши и зависания ценой отсутствия звука.
 &Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все вызовы приложения к библиотеке libSceAjm.\nЕсли приложение использует эту библиотеку, это может привести к отсутствию звука.
 &Details_View.CommunityPatches=Доступные патчи сообщества
 &Details_View.Trophies=Трофеи

@@ -119,7 +119,7 @@
 &Details_View.AppSpecific.SkipMovies=Skip pre-rendered movies if possible
 &Details_View.AppSpecific.SkipMovies.tt=If this setting is active, the emulator will skip all pre-rendered\nmovies that the application tries to play back.
 &Details_View.AppSpecific.SkipAjm=Skip Audio Job Manager
-&Details_View.AppSpecific.SkipAjm.tt=If this setting is active, the emulator will ignore all\napplication calls to the libSceAjm library. Checking this may lead to missing sound.
+&Details_View.AppSpecific.SkipAjm.tt=If this setting is active, the emulator will ignore any calls to\nthe libSceAjm library. Activating this setting can fix crashes\nand freezes at the cost of missing sound partially or entirely.
 &Details_View.CommunityPatches=Available community patches
 &Details_View.Patches.Incompat=Show potentially incompatible patches (VERY DANGEROUS!!!)
 &Global.Name=Name
