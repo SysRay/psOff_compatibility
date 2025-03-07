@@ -39,7 +39,7 @@
 &View_Settings.AppScanTab.ScanDepth.tt=Эта настройка указывает насколько глубоко в структуру папок должен заходить\nсканер библиотеки во время обхода.
 &View_Settings.AppScanTab.Table.Paths=Пути поиска
 &View_Settings.AppScanTab.AddPath=Добавить путь
-&View_Settings.AppScanTab.Rescan library=Просканировать библиотеку
+&View_Settings.AppScanTab.Rescan=Просканировать библиотеку
 &View_Settings.GeneralTab.Update=Канал обновлений
 &View_Settings.GeneralTab.UpdateForce=Проверить обновления
 &View_Settings.GeneralTab.Update.tt=Эта настройка указывает канал обновлений для эмулятора.\n\nСтабильный - релиз выходит примерно раз в месяц.\nНестабильный - релиз выходит примерно раз в неделю.
