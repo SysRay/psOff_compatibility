@@ -11,13 +11,13 @@
 &View_Settings.GeneralTab.Lang.tt=To ustawienie zarządza językiem, który jest używany\nw interfejsie i w aplikacjach.
 &View_Settings.GeneralTab.TropKey=Klucz odszyfrowywania trofeów
 &View_Settings.GeneralTab.TropKey.tt=Dane trofeów na konsolach PlayStation są szyfrowane.\nPowinieneś zdobyć ten klucz z konsoli PS4 i wpisać go\ntutaj w formacie szesnastkowym.\nTo ustawienie jest opcjonalne, ale jeśli nie określisz\nprawidłowego klucza, funkcje aplikacji związane z trofeami\nnie będą działać poprawnie.\n\nPowinieneś ponownie uruchomić aplikację, aby zastosować to ustawienie.
-&View_Settings.GeneralTab.ScanDepth=Głębokość rekurencji skanera aplikacji
-&View_Settings.GeneralTab.ScanDepth.tt=To ustawienie określa, jak głęboko w strukturę folderów powinien wejść skaner aplikacji podczas generowania biblioteki aplikacji.
 &View_Settings.GeneralTab.Tooltips=Pokaż podpowiedzi w interfejsie
 &View_Settings.GeneralTab.Tooltips.tt=Jeżeli wyłączysz tą opcję to podpowiedzi takie jak ta znikną.
 &View_Settings.GeneralTab.JapCn=Włącz wsparcie dla chińskich i japońskich znaków w interfejsie użytkownika
 &View_Settings.GeneralTab.CommStart=Zastosuj społecznościowe łatki podczas startu aplikacji
 &View_Settings.GeneralTab.DevGame=Pokaż informacje deweloperskie podczas rozgrywki
+&View_Settings.AppScanTab.ScanDepth=Głębokość rekurencji skanera aplikacji
+&View_Settings.AppScanTab.ScanDepth.tt=To ustawienie określa, jak głęboko w strukturę folderów powinien wejść skaner aplikacji podczas generowania biblioteki aplikacji.
 &View_Settings.VideoTab=Wideo
 &View_Settings.VideoTab.VSync=Włącz VSync
 &View_Settings.VideoTab.VSync.tt=To ustawienie określa czy synchronizacja pionowa powinna być użyta w aplikacji.
@@ -45,8 +45,6 @@
 &View_Base.SearchPath.tt=To pole powinno zawierać ścieżki, oddzielone nową linią,\nw których powinna wyszukiwać aplikacje.\nWszystkie podane ścieżki muszą być bezwzględne.
 &View_Base.Load=Szukaj
 &View_Base.Load.tt=Kliknij ten przycisk, aby wygenerować bibliotekę...
-&View_Base.Custom=Niestandardowe
-&View_Base.Custom.tt=Kliknij ten przycisk, jeśli chcesz uruchomić niestandardową aplikację.
 &View_Base.GamesFilterLabel=Filtr biblioteki
 &View_Base.GamesList.tt=Lista zawiera wszystkie aplikacje znalezione przez skaner.
 &View_Settings.UsersTab.Enabled=Wybrani użytkownicy:
@@ -79,6 +77,8 @@
 &View_Settings.AboutTab.Discord=Nasz serwer discord
 &Details_View.Settings=Ustawienia
 &Details_View.Settings.tt=Naciśnij ten przycisk, aby otworzyć ustawienia emulatora.
+&Details_View.CustomRun=Niestandardowe
+&Details_View.CustomRun.tt=Kliknij ten przycisk, jeśli chcesz uruchomić niestandardową aplikację.
 &Details_View.LogsFolder=Folder logów
 &Details_View.EmuFolder=Folder emulatora
 &Details_View.UnsavedChanges=Otwórz ustawienia żeby zapisać zmiany!
