@@ -96,8 +96,8 @@
 &View_Settings.AboutTab.CnTranslation=Chinese translation
 &View_Settings.AboutTab.Compat=Our compatibility list
 &View_Settings.AboutTab.Discord=Our Discord server
-&View_Base.GamesFilter.tt=Use this field to filter the list of applications below.
-&View_Base.GamesFilterLabel=Library filter
+&View_Base.GamesFilterLabel=Library Search
+&View_Base.GamesFilter.tt=Use this field to search for applications in your library.
 &View_Base.GamesList.tt=This list contains all the applications found by the scanner.
 &Details_View.Settings=Settings
 &Details_View.Settings.tt=Press this button to open emulator settings window.

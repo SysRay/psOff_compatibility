@@ -109,7 +109,7 @@
 &View_Base.SearchPath.tt=Это поле должно содержать пути, разделенные новой строкой, которые должен посетить сканер приложений.
 &View_Base.Load=Поиск
 &View_Base.Load.tt=Нажмите эту кнопку чтобы запустить сканер приложений.
-&View_Base.GamesFilterLabel=Фильтр списка
+&View_Base.GamesFilterLabel=Поиск по списку
 &View_Base.GamesFilter.tt=Используйте это поле, чтобы отфильтровать список библиотеки приложений.
 &View_Base.GamesList.tt=Этот список содержит все приложения, которые были найдены сканером.
 &Details_View.Settings=Настройки
