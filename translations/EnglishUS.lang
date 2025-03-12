@@ -111,7 +111,7 @@
 &Details_View.GameFolder=App Folder
 &Details_View.SavesFolder=Saves Folder
 &Details_View.Feedback=Send Feedback
-&Details_View.AppSpecific=Applictions specific settings
+&Details_View.AppSpecific=Application specific settings
 &Details_View.AppSpecific.FrameRate=Frame limitation
 &Details_View.AppSpecific.FrameRate.tt=Changing this setting may result in a smoother picture if\nthe application supports a higher frame rate.
 &Details_View.AppSpecific.FrameRate.0=Application default
