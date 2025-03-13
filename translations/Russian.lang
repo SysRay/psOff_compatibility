@@ -32,7 +32,7 @@
 &View_Settings.GeneralTab.Tooltips.tt=Если вы выключите подсказки, то окна, такие как вот это, пропадут.
 &View_Settings.GeneralTab.AgeRestrict=Показывать уведомление о возрастном ограничении приложения
 &View_Settings.GeneralTab.AgeRestrict.tt=Если эта настройка включена, при запуске приложения вы\nувидите сообщение о возрастном ограничении приложения,\nесли разработчик указал его.
-&View_Settings.AppScanTab=Сканнер приложений
+&View_Settings.AppScanTab=Сканер приложений
 &View_Settings.AppScanTab.AutoLoad=Сканировать библиотеку при старте эмулятора
 &View_Settings.AppScanTab.AutoLoad.tt=Если эта настройка активна, эмулятор будет автоматически\nсканировать вашу библиотек в указанных папках.
 &View_Settings.AppScanTab.ScanDepth=Глубина сканирования библиотеки
