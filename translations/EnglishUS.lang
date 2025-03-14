@@ -1,5 +1,8 @@
 &Global.Yes=Yes
 &Global.No=No
+&Global.SettGlob=Use global setting
+&Global.RendResolution=Rendering resolution
+&Global.RendResolution.tt=This option sets the rendering resolution to be used for the application(s).\nIt can be set either for all applications or for specific application separately.\n\nWarning! Not all applications support this setting, some may break from changing the resolution.
 &Details_View.LogsFolder=Logs Folder
 &View_Settings.Title=psOff Settings
 &View_Settings.Close=Close
@@ -220,7 +223,6 @@
 &View_Dialog.UpdaterNewVer.Title=New version found!
 &View_Dialog.UpdaterProgress.Description=Please wait until the new version is downloaded. The emulator will be restarted immediately after installing new files.
 &View_Dialog.UpdaterProgress.Title=Downloading a new version...
-&View_Settings.AppScanTab.Table.Ctrls=Controls
 &View_Settings.UsersTab.Hint.AllPad=!!! One of enabled users misses input device.
 &View_Settings.UsersTab.Hint.Init=!!! No primary user selected, assuming it's the first user.
 &View_Settings.UsersTab.Hint.NoUsr=!!! No enabled users at all, you won't be able to start applications.
