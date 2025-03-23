@@ -157,6 +157,10 @@
 &Details_View.Trophies.KeyError=The Trophy Key in settings either not set at all or invalid. Please enter trophy decryption key in order to get correct trophies list here. Without the trophy key you still can unlock the trophies in your apps, but you won't be able to see their names and descriptions. If you enter this key later, you will see all the trophies you unlocked earlier.
 &Details_View.Trophies.NotFound=This application has no trophies!
 &Details_View.Trophies.Wait=Please wait a bit, we are working on a list generation...
+&Details_View.Trophies.Grade.Bronze=Bronze
+&Details_View.Trophies.Grade.Silver=Silver
+&Details_View.Trophies.Grade.Gold=Gold
+&Details_View.Trophies.Grade.Platinum=Platinum
 &Global.Ok=OK
 &Notify.AlreadyRunApp.Description=Another application is already running!
 &Notify.AppAge.DescriptionA=The content on this application has no age restrictions and meant for all ages.

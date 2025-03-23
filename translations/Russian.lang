@@ -153,6 +153,10 @@
 &Details_View.Trophies.Info.Shown=Показано:
 &Details_View.Trophies.Info.Hidden=Скрыто:
 &Details_View.Trophies.Info.Unlocked=Получено:
+&Details_View.Trophies.Grade.Bronze=Бронзовый
+&Details_View.Trophies.Grade.Silver=Серебряный
+&Details_View.Trophies.Grade.Gold=Золотой
+&Details_View.Trophies.Grade.Platinum=Платиновый
 &Details_View.Patches.Incompat=Показывать потенциально несовместимые патчи (ОЧЕНЬ ОПАСНО!!!)
 &Details_View.Patches.PVer=Версия И|П
 &Details_View.Patches.PAuthor=Автор
