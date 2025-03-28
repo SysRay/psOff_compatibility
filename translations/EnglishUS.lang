@@ -141,7 +141,7 @@
 &Details_View.Trophies.CurrGame=Current title
 &Details_View.Trophies.CurrUser=Current user
 &Details_View.Trophies.UnlockAt=Unlocked at
-&Details_View.HintUIOpen=Press "Space" to show the emulator GUI during the application session.
+&Details_View.HintUIOpen=Press "Space" on keyboard or "Share" on gamepad to show the emulator GUI during the application session.
 &CRun_View.BinPath=Application binary path
 &CRun_View.RootPath=Application root path
 &CRun_View.Args=Application run args
