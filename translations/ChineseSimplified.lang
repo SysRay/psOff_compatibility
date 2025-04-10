@@ -141,7 +141,7 @@
 &Details_View.Trophies.CurrGame=当前标题
 &Details_View.Trophies.CurrUser=当前用户
 &Details_View.Trophies.UnlockAt=解锁于
-&Details_View.HintUIOpen=在应用程序会话中按下"空格键"来显示模拟器用户界面。
+&Details_View.HintUIOpen=在应用程序会话中按下键盘上的"空格键"或手柄上的"share"键来显示模拟器用户界面。
 &CRun_View.BinPath=应用程序二进制文件路径
 &CRun_View.RootPath=应用程序根路径
 &CRun_View.Args=应用程序允许参数
@@ -150,6 +150,7 @@
 &CRun_View.Run=运行应用程序
 &CRun_View.Stop=停止应用程序
 &Global.Cancel=取消
+&Details_View.MakeFav=收藏
 &Details_View.AvailPatches.tt=此列表包含扫描器在特定路径找到的已选应用程序的所有官方补丁。
 &Details_View.Trophies.Info.Hidden=隐藏的奖杯：
 &Details_View.Trophies.Info.Shown=显示的奖杯：
@@ -208,6 +209,20 @@
 &View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
 &View_Base.SearchPath=应用程序路径
 &View_Base.SearchPath.tt=此字段应包含由换行符分隔的路径，\n扫描的游戏应通过该路径搜索游戏和应用程序。\n所有指定的路径必须是绝对路径。
+&View_SSearch.UseLists=使用的列表
+&View_SSearch.UseLists.0=所有应用程序
+&View_SSearch.UseLists.1=仅零售应用程序
+&View_SSearch.UseLists.2=仅自制应用程序
+&View_SSearch.MinSDK=最低版本SDK
+&View_SSearch.MaxSDK=最高版本SDK
+&View_SSearch.SortOpt=排序选项
+&View_SSearch.SortOpt.0=文件系统默认
+&View_SSearch.SortOpt.1=按字母顺序
+&View_SSearch.SortOpt.2=按Title ID
+&View_SSearch.SortOpt.3=最近玩过的
+&View_SSearch.SortDir=按降序排序
+&View_SSearch.HideUnApp=隐藏从未打开过的应用程序
+&View_SSearch.OnlyFavApp=只显示收藏的应用程序
 &View_Dialog.Error.EDesc=错误代码：
 &View_Dialog.Error.EFacil=Facility:
 &View_Dialog.Error.Title=SCE发生了错误！
