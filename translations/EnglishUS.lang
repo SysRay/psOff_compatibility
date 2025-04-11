@@ -200,6 +200,7 @@
 &Notify.RestartWarn.Description=Please, keep in mind that some of the settings you have changed requires restarting the emulator.
 &Notify.RestartWarn.Title=Configuration warning
 &Notify.SavedataDesync.Description=Your config file and GAMEFILES folder are out of sync! This may lead to savedata loss or unexpected consequences. If you know what are you doing, delete the .uuid file from the GAMEFILES directory.
+&Notify.VulkanDbgLayer.Description=Failed to enable Vulkan Validation Layers. Please make sure you have compatible version of VulkanSDK installed.
 &Notify.SessErr.Description=Failed to setup application session, please check your emulator settings for errors.
 &Notify.SysError.Title=System Error
 &Notify.TropUnlock.Title.Bronze=Bronze trophy unlocked!
