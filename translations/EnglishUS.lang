@@ -3,6 +3,8 @@
 &Global.SettGlob=Use global setting
 &Global.RendResolution=Rendering resolution
 &Global.RendResolution.tt=This option sets the rendering resolution to be used for the application(s).\nIt can be set either for all applications or for specific application separately.\n\nWarning! Not all applications support this setting, some may break from changing the resolution.
+&Global.HourShort=hr.
+&Global.MinuteShort=min.
 &Details_View.LogsFolder=Logs Folder
 &View_Settings.Title=psOff Settings
 &View_Settings.Close=Close
@@ -135,7 +137,7 @@
 &Details_View.Patches.Download=Download latest patches
 &Details_View.Patches.Disclaimer=By downloading, using, or distributing these community-made patches to executable files and shared libraries, you acknowledge that you bear sole responsibility for any legal consequences, including compliance with copyright and licensing laws, and accept that these patches are provided "as is" without any warranty, causing software malfunction, or data loss, and that no formal support is guaranteed, with the understanding that such use does not imply endorsement by original software developers and must comply with all relevant local, national, and international laws.
 &Details_View.Patches.PTitle=Title
-&Details_View.Trophies=Trophies
+&Details_View.Trophies=Trophies and Progression
 &Details_View.Trophies.ShowSpoilers=Show hidden trophies
 &Details_View.Trophies.ShowSpoilers.tt=Spoilers ahead!! If you tick this checkbox, you may see things\nyou're not supposed to se at this moment.
 &Details_View.Trophies.CurrGame=Current title
@@ -151,6 +153,9 @@
 &CRun_View.Stop=Stop application
 &Global.Cancel=Cancel
 &Details_View.MakeFav=Favorite
+&Details_View.LastRun=Last Run:
+&Details_View.LastRunNever=Never
+&Details_View.Duration=Play Time:
 &Details_View.AvailPatches.tt=This list contains all official patches for selected application that\nscanner was able to find in specified paths.
 &Details_View.Trophies.Info.Hidden=Hidden trophies:
 &Details_View.Trophies.Info.Shown=Shown trophies:
@@ -220,6 +225,7 @@
 &View_SSearch.SortOpt.1=Alphabetical
 &View_SSearch.SortOpt.2=Title ID
 &View_SSearch.SortOpt.3=Recently Played
+&View_SSearch.SortOpt.4=Play time
 &View_SSearch.SortDir=Sort by descending
 &View_SSearch.HideUnApp=Hide never opened applications
 &View_SSearch.OnlyFavApp=Show only favorite applications

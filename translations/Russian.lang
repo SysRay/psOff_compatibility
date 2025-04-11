@@ -7,6 +7,8 @@
 &Global.SettGlob=Использовать глобальную настройку
 &Global.RendResolution=Разрешение рендеринга
 &Global.RendResolution.tt=Эта опция устанавливает разрешение рендеринга для приложения(-ий).\nРазрешение может быть установлено как глобальная настройка, так и в качестве уникальной для приложения.\n\nВнимания! Не все игры поддерживают эту настройку, некоторые могут сломаться от её изменения.
+&Global.HourShort=ч.
+&Global.MinuteShort=мин.
 &View_Settings.Title=Настройки psOff
 &View_Settings.Close=Закрыть
 &View_Settings.Reset=Сбросить изменения
@@ -121,6 +123,7 @@
 &View_SSearch.SortOpt.1=По алфавиту
 &View_SSearch.SortOpt.2=По идентификатору
 &View_SSearch.SortOpt.3=Недавно сыгранные
+&View_SSearch.SortOpt.4=Время работы
 &View_SSearch.SortDir=Сортировать по убыванию
 &View_SSearch.HideUnApp=Скрыть неиспользованные приложения
 &View_SSearch.OnlyFavApp=Показывать только избранные приложения
@@ -138,6 +141,9 @@
 &Details_View.AvailPatches=Версия
 &Details_View.AvailPatches.tt=Этот список содержит все официальные патчи, которые удалось найти сканеру.
 &Details_View.MakeFav=В избранное
+&Details_View.LastRun=Последний запуск:
+&Details_View.LastRunNever=Никогда
+&Details_View.Duration=Время работы:
 &Details_View.Start=Запуск
 &Details_View.Stop=Стоп
 &Details_View.GameFolder=Папка приложения
@@ -156,7 +162,7 @@
 &Details_View.AppSpecific.SkipAjm.tt=Если эта настройка активна, эмулятор проигнорирует любые вызовы\nигры к библиотеке libSceAjm. Активация этой настройки\nможет исправить краши и зависания ценой отсутствия звука.
 &Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все вызовы приложения к библиотеке libSceAjm.\nЕсли приложение использует эту библиотеку, это может привести к отсутствию звука.
 &Details_View.CommunityPatches=Доступные патчи сообщества
-&Details_View.Trophies=Трофеи
+&Details_View.Trophies=Трофеи и прогрессия
 &Details_View.Trophies.UnlockAt=Время получения
 &Details_View.Trophies.NotFound=В этом приложении нет трофеев!
 &Details_View.Trophies.KeyError=Ключ для расшифровки трофеев неверен, либо отсутствует вовсе. Пожалуйста введите этот ключ, чтобы получить доступ к списку трофеев. Без этого ключа вы всё ещё можете получать трофеи в приложениях, но вы не будете видеть их названия и описания. Если вы введёте этот ключ позже, вы увидите все трофеи, которые были разблокированы ранее.
