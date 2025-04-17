@@ -26,7 +26,7 @@
 &View_Settings.GeneralTab.UpdateFreq.2=Daily
 &View_Settings.GeneralTab.UpdateFreq.3=Never
 &View_Settings.GeneralTab.TropKey=Trophy Key
-&View_Settings.GeneralTab.TropKey.tt=The trophy data on PlayStation consoles is encrypted.\nYou should dump this key from your PS4 console and type it\nhere in hexadecimal format. This setting is optional, but\nif you do not specify the correct key, game functions\nrelated to trophies will not work properly.\n\nYou should restart your game to apply this setting.
+&View_Settings.GeneralTab.TropKey.tt=The trophy data on PlayStation consoles is encrypted.\nYou should dump this key from your PS4 console and type it\nhere in hexadecimal format. This setting is optional, but\nif you do not specify the correct key, application functions\nrelated to trophies will not work properly.\n\nYou should restart your application to apply this setting.
 &View_Settings.GeneralTab.Tooltips=Show UI tooltips
 &View_Settings.GeneralTab.Tooltips.tt=If you disable this option, tooltips like this one will go away.
 &View_Settings.GeneralTab.AgeRestrict=Show age restriction notification for application
@@ -35,6 +35,8 @@
 &View_Settings.GeneralTab.CommStart=Apply enabled community patches on application startup
 &View_Settings.GeneralTab.DevGame=Show developer info in gameplay
 &View_Settings.GeneralTab.UpdateForce=Force Update Check
+&View_Settings.GeneralTab.MouseLock=Lock mouse cursor
+&View_Settings.GeneralTab.MouseLock.tt=If this setting is active, the mouse cursor will be locked\ninside the emulator window if any application is running.\nIf the application supports mouse input, every mouse move will be passed to it.
 &View_Settings.AppScanTab=App Scanner
 &View_Settings.AppScanTab.AutoLoad=Load application library on start
 &View_Settings.AppScanTab.AutoLoad.tt=If this checkbox is enabled, the emulator will automatically\nload your library from already specified folders.
@@ -55,7 +57,7 @@
 &View_Settings.VideoTab.Resolution=Display Resolution
 &View_Settings.AudioTab=Audio
 &View_Settings.AudioTab.GameVolume=General volume
-&View_Settings.AudioTab.GameVolume.tt=This setting affects all the sounds application make in general.\nIf the application has its own volume setting, it will be multiplied by this value.\nThis means that if you set this value to 0, the application will be completely\nsilent at all times, no matter what.\n\nThis setting can be changed during gameplay.
+&View_Settings.AudioTab.GameVolume.tt=This setting affects all the sounds application make in general.\nIf the application has its own volume setting, it will be multiplied by this value.\nThis means that if you set this value to 0, the application will be completely\nsilent at all times, no matter what.\n\nThis setting can be changed in runtime.
 &View_Settings.AudioTab.BGMVolume=Background music volume
 &View_Settings.AudioTab.BGMVolume.tt=This setting only affects background music that is specific\nto the application you select in your library. Setting this value\nto 0 will disable background music completely.
 &View_Settings.AudioTab.GenOut=General Speaker
@@ -188,9 +190,9 @@
 &Notify.Firmware.Title=Firmware libraries
 &Notify.FirmwareNoLibs.Description=At least one allowed firmware library must be selected!
 &Notify.FirmwareNoPath.Description=You have selected allowed firmware libraries, but there is no path to the folder containing these libraries!
-&Notify.GameReportErr.Title=Game report generation failed
-&Notify.GameReportExists.Description=We already know about the problems in this game, click the button again to open the report page. Report info will be copied to your clipboard.
-&Notify.GameReportNotify.Title=Game report notification
+&Notify.GameReportErr.Title=Application report generation failed
+&Notify.GameReportExists.Description=We already know about the problems in this application, click the button again to open the report page. Report info will be copied to your clipboard.
+&Notify.GameReportNotify.Title=Application report notification
 &Notify.NoAppFolder.Description=This folder either no longer exists or a system error has occurred.
 &Notify.NoLogs.Description=Failed to open "P7logs" folder, probably it doesn't even exist at all.
 &Notify.NoReset.Description=You have no unsaved changes.
@@ -213,8 +215,6 @@
 &Notify.Welcome.Title=Welcome!
 &View_Base.Load=Search
 &View_Base.Load.tt=Press this button to trigger the application scanner.
-&View_Base.SearchPath=App paths
-&View_Base.SearchPath.tt=This field should contain the paths, seprarated by a newline, throught which\nthe game scanned should search for games and applications.\nAll specified paths must be absolute.
 &View_SSearch.UseLists=Used lists
 &View_SSearch.UseLists.0=All Applications
 &View_SSearch.UseLists.1=Only Retail Applications

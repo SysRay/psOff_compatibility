@@ -207,8 +207,6 @@
 &Notify.Welcome.Title=欢迎！
 &View_Base.Load=搜索
 &View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
-&View_Base.SearchPath=应用程序路径
-&View_Base.SearchPath.tt=此字段应包含由换行符分隔的路径，\n扫描的游戏应通过该路径搜索游戏和应用程序。\n所有指定的路径必须是绝对路径。
 &View_SSearch.UseLists=使用的列表
 &View_SSearch.UseLists.0=所有应用程序
 &View_SSearch.UseLists.1=仅零售应用程序
