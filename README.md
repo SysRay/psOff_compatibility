@@ -17,6 +17,24 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
 - **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
+### Features
+- [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button.
+- [x] **Couch Co-Op** – Play local multiplayer with up to 3 friends using multiple gamepads (it is possible to emulate gamepad using keyboard too – check bottom of README for keybinds).
+- [x] **PS4 Firmware Modules** – Load system modules for broader compatibility.
+- [x] **Community Patches** – Supports [illusion0001's patches](https://github.com/illusion0001/PS4-PS5-Game-Patch) *(manual installation required for now – check our Discord for more info)*.
+- [x] **Per-Game Settings** – Customize FPS limits, resolution, and other options per title.
+- [x] **Separate Save Files** – Each user profile maintains independent game progress.
+- [x] **Auto Game Detection** – Scans folders recursively for PS4 games and their patches.
+- [x] **Smart Library** – Sort, filter, and list favorite games in your collection.
+- [x] **Trophies** – Check your progression and earn trophies with in-game notifications *(requires decryption key from retail console – check our Discord for more info)*.
+- [x] **Playtime Stats** – Tracks hours played.
+- [x] **Background Music** – Plays game-specific background music/ambient in emulator menu.
+- [x] **Mouse/Keyboard Support** – Native controls for compatible games *(WIP)*.
+- [x] **Multi-GPU Setups Support** – Select preferred graphics card if you have Multi-GPU setup.
+- [x] **Gamepad Audio** – Games can output audio to your gamepad speaker.
+- [x] **1-Click Bug Reports** – Submit GitHub issues with game-specific templates.
+- [x] **Auto-Updater** – Seamlessly installs latest versions from GitHub.
+
 ## Compatibility List - Issue Creation Rules
 1. Ensure there is no existing issue for your game before posting.
 2. Issues must be submitted in English. However, screenshots or videos containing non-English text are acceptable.
