@@ -168,7 +168,7 @@
 &View_SSearch.HideUnApp=Masquer les applications jamais ouvertes
 &View_SSearch.OnlyFavApp=Afficher uniquement les applications favorites
 &Global.Ok=OK
-&Details_View.AvailPatches.tt=Cette liste contient tous les correctifs officiels pour l'application sélectionnée que\nscanner a pu trouver dans les chemins spécifiés.&Details_View.Duration=Play Time:
+&Details_View.AvailPatches.tt=Cette liste contient tous les correctifs officiels pour l'application sélectionnée que\nscanner a pu trouver dans les chemins spécifiés.
 &Details_View.LastRun=Dernière exécution :
 &Details_View.LastRunNever=Jamais
 &Details_View.Trophies.Grade.Bronze=Bronze
@@ -218,7 +218,8 @@
 &Notify.SessErr.Description=Échec de la configuration de la session d'application. Veuillez vérifier les paramètres de votre émulateur pour détecter d'éventuelles erreurs.
 &Notify.SysError.Title=Erreur système
 &Notify.TropUnlock.Title.Bronze=Trophée de bronze débloqué !
-&Notify.TropUnlock.Title.Gold=Trophée d'or débloqué ! &Notify.TropUnlock.Title.Platinum=Trophée Platine débloqué !
+&Notify.TropUnlock.Title.Gold=Trophée d'or débloqué !
+&Notify.TropUnlock.Title.Platinum=Trophée Platine débloqué !
 &Notify.TropUnlock.Title.Silver=Trophée Argent débloqué !
 &Notify.UsrRemove.Description=Appuyez à nouveau sur ce bouton pour confirmer la suppression de l'utilisateur.
 &Notify.UsrRemove.Title=Confirmation de la suppression de l'utilisateur
@@ -257,4 +258,3 @@
 &Details_View.Trophies=Trophies and Progression
 &Details_View.Trophies.ShowSpoilers=Show hidden trophies
 &Details_View.Duration=Play Time:
-&Notify.TropUnlock.Title.Platinum=Platinum trophy unlocked!
