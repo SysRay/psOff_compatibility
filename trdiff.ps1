@@ -3,7 +3,12 @@ if ($args.Length -eq 0) {
 	Exit 1;
 }
 
-$lastCommit = @(git log -n 1 --format=%H -- "translations\$($args[0]).lang")
+if ($args[0] -eq "Russian") {
+	$lastCommit = @(git log -n 1 --format=%H -- "translations\$($args[0]).lang")
+}
+else {
+	$lastCommit = @(git log -n 1 --perl-regexp --author='^((?!igor725).*)$' --format=%H -- "translations\$($args[0]).lang")
+}
 
 $changes = @(git --no-pager diff --color=always $lastCommit`.`.HEAD `-`- translations\EnglishUS.lang)
 
