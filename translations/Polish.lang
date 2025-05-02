@@ -151,13 +151,14 @@
 &View_Settings.GeneralTab.UpdateFreq.3=Wyłączone
 &View_Settings.UsersTab.Usr.UId=Unikalne id:
 &View_Settings.AboutTab.ThanksRedPrig=Niezliczona ilość bezinteresownej pomocy dla całej społeczności emulacji PS4 <3
-&View_Settings.AboutTab.ThanksKrispy=Moderacja serwera Discord, Polskie tłumaczenie
+&View_Settings.AboutTab.ThanksKrispy=Moderacja serwera Discord
 &View_Settings.AboutTab.AlphaTesting=Alpha testy
 &View_Settings.AboutTab.PublicContrib=Kontrybucje psOff_public
 &View_Settings.AboutTab.ThanksChanne=Niezliczone noce testów alpha mnóstwa gier
 &View_Settings.AboutTab.ThanksTips=Kilka wskazówek dotyczących emulacji PS4
 &View_Settings.AboutTab.DiscordBoost=Ulepszenia serwera Discord
 &View_Settings.AboutTab.ThanksJose=Promowanie emulatora w mediach społecznościowych i inne formy pomocy
+&View_Settings.AboutTab.PlTranslation=Polskie tłumaczenie
 &Details_View.Trophies=Trofea
 &Details_View.Trophies.tt=Ta lista zawiera wszystkie trofea tej gry.
 &Details_View.Trophies.ShowSpoilers=Pokaż ukryte trofea

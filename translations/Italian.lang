@@ -93,7 +93,7 @@
 &View_Settings.AboutTab.License=Licenza
 &View_Settings.AboutTab.ThanksList=Ringraziamenti speciali alle seguenti persone che ci hanno aiutato durante il nostro percorso:
 &View_Settings.AboutTab.ThanksRedPrig=Innumerevole aiuto disinteressato all'intera comunità di emulazione PS4
-&View_Settings.AboutTab.ThanksKrispy=Moderazione server Discord, traduzione polacca
+&View_Settings.AboutTab.ThanksKrispy=Moderazione server Discord
 &View_Settings.AboutTab.AlphaTesting=Test Alfa
 &View_Settings.AboutTab.PublicContrib=Contributi a psOff_public
 &View_Settings.AboutTab.ThanksChanne=Notti infinite di test alfa di centinaia di giochi
@@ -101,6 +101,7 @@
 &View_Settings.AboutTab.DiscordBoost=Boosting server Discord
 &View_Settings.AboutTab.ThanksJose=Diffusione di informazioni sull'emulatore sui social e altri tipi di aiuto
 &View_Settings.AboutTab.CnTranslation=Traduzione cinese
+&View_Settings.AboutTab.PlTranslation=Traduzione polacca
 &View_Settings.AboutTab.Compat=La nostra lista di compatibilità
 &View_Settings.AboutTab.Discord=Il nostro server Discord
 &View_Base.GamesFilterLabel=Ricerca Libreria

@@ -82,13 +82,14 @@
 &View_Settings.AboutTab.HeadingText=psOff - это эмулятор (слой совместимости) консоли PlayStation 4 с закрытым исходным кодом, написанный на C++20. Этот проект пребывает на своих ранних стадиях разработки и большинство игр из-за этого не будут работать нормально ещё какое-то время, но мы стабильно улучшаем совместимость и производительность эмулятора, вы можете следить за новостями эмулятора в нашем Discord сервере и в нашем трекере совместимости (ссылки находятся на конце этой страницы).\n\nОсновные разработчики:\n* Ray - основатель проекта (GitHub: @SysRay)\n* Daydreamer - второй разработчик (GitHub: @igor725)\n\nЭтот проект использует следующие сторонние библиотеки:\n
 &View_Settings.AboutTab.ThanksList=Отдельная благодарность следующим людям, помогавшим нам:
 &View_Settings.AboutTab.ThanksRedPrig=Бесчисленная бескорыстная помощь всему сообществу эмуляции PS4
-&View_Settings.AboutTab.ThanksKrispy=Модерация Discord сервера, перевод на польский
+&View_Settings.AboutTab.ThanksKrispy=Модерация Discord сервера
 &View_Settings.AboutTab.ThanksChanne=Нескончаемые ночи альфа тестирования сотен игр
 &View_Settings.AboutTab.ThanksTips=Советы по эмуляции PS4
 &View_Settings.AboutTab.ThanksJose=Распространение информации об эмуляторе в соцсетях и др. помощь
 &View_Settings.AboutTab.CnTranslation=Перевод на китайский язык
 &View_Settings.AboutTab.FrTranslation=Перевод на французский язык
 &View_Settings.AboutTab.ItTranslation=Перевод на итальянский язык
+&View_Settings.AboutTab.PlTranslation=Перевод на польский
 &View_Settings.AboutTab.AlphaTesting=Альфа-тестирование
 &View_Settings.AboutTab.PublicContrib=Вклад в psOff_public
 &View_Settings.AboutTab.DiscordBoost=Буст Discord сервера
