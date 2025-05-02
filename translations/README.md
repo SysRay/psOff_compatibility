@@ -8,6 +8,7 @@ This folder contains files for translating the emulator’s user interface into 
 3. Incomplete translations are permitted.
 4. All proposed translations will be reviewed for accuracy and appropriateness using artificial intelligence to ensure they are free of errors and insults.
 5. Contributors who submit a new translation or correct an existing one will be acknowledged in the emulator’s “Thank You” list, unless they explicitly request otherwise.
+6. You can use the `.\trdiff.ps1 <target language name>` command to list all the changes in the English localization since the last commit to the target language file. For example: `.\trdiff.ps1 Russian`. This script does not analyze the language files themselves but instead shows a list of Git changes in the English localization since the last target language commit. Note that it may not always display all the necessary changes.  
 
 ## Known Limitations
 - The emulator’s UI is built using the ImGui library, which does not support Arabic. As a result, Arabic translations cannot be integrated into the main release until the UI library adds support for this language. However, Arabic remains available in the selection menu, as PS4 apps may support it and can display text or use corresponding voiceovers if available.
