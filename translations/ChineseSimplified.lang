@@ -3,6 +3,8 @@
 &Global.SettGlob=使用全局设置
 &Global.RendResolution=渲染分辨率
 &Global.RendResolution.tt=这个选项设定用于应用程序的渲染分辨率。\n它可被设定为针对所有应用程序或者单个应用。\n\n警告！并非所有应用程序都支持这个设置,变更分辨率可能让某些应用崩溃。
+&Global.HourShort=小时
+&Global.MinuteShort=分钟
 &Details_View.LogsFolder=日志目录
 &View_Settings.Title=psOff设置
 &View_Settings.Close=关闭
@@ -24,7 +26,7 @@
 &View_Settings.GeneralTab.UpdateFreq.2=每日
 &View_Settings.GeneralTab.UpdateFreq.3=从不
 &View_Settings.GeneralTab.TropKey=奖杯密钥
-&View_Settings.GeneralTab.TropKey.tt=PS主机上的奖杯数据是加密的。\n你要从PS4主机中转储出这个密钥然后以十六进制格式输入到此处。\n这个设置是可选的，但是如果你不指定正确的密钥，\n与奖杯相关的游戏功能将不正常。\n\n你需要重启游戏来应用这个设置。
+&View_Settings.GeneralTab.TropKey.tt=PS主机上的奖杯数据是加密的。\n你要从PS4主机中转储出这个密钥然后以十六进制格式输入到此处。\n这个设置是可选的，但是如果你不指定正确的密钥，\n与奖杯相关的应用程序功能将不正常。\n\n你需要重启应用程序来应用这个设置。
 &View_Settings.GeneralTab.Tooltips=显示用户界面工具提示
 &View_Settings.GeneralTab.Tooltips.tt=如果你禁用这个选项，像当前这样的工具提示将不显示。
 &View_Settings.GeneralTab.AgeRestrict=为应用程序显示年龄限制提醒
@@ -33,6 +35,8 @@
 &View_Settings.GeneralTab.CommStart=在应用程序启动时应用已启用的社区补丁
 &View_Settings.GeneralTab.DevGame=在游戏时显示开发者信息
 &View_Settings.GeneralTab.UpdateForce=强制更新检查
+&View_Settings.GeneralTab.MouseLock=锁定鼠标指针
+&View_Settings.GeneralTab.MouseLock.tt=如果激活这个设置，应用程序在运行的时候鼠标指针将被锁定在模拟器窗口中。\n 如果应用程序支持鼠标输入，\n任何鼠标移动都会被传递给应用程序。
 &View_Settings.AppScanTab=应用程序扫描器
 &View_Settings.AppScanTab.AutoLoad=启动时载入应用程序库
 &View_Settings.AppScanTab.AutoLoad.tt=如果启用这个复选框，模拟器将从已指定的目录自动载入你的库。
@@ -53,7 +57,7 @@
 &View_Settings.VideoTab.Resolution=显示分辨率
 &View_Settings.AudioTab=音频
 &View_Settings.AudioTab.GameVolume=常规音量
-&View_Settings.AudioTab.GameVolume.tt=此设置会影响应用程序发出的所有声音。\n如果应用程序有自己的音量设置，则它将乘以此值。\n这意味着如果将此值设置为 0，则无论如何应用程序将始终完全静音。\n\n可以在游戏过程中更改此设置。
+&View_Settings.AudioTab.GameVolume.tt=此设置会影响应用程序发出的所有声音。\n如果应用程序有自己的音量设置，则它将乘以此值。\n这意味着如果将此值设置为 0，则无论如何应用程序将始终完全静音。\n\n可以在应用程序运行过程中更改此设置。
 &View_Settings.AudioTab.BGMVolume=背景音乐音量
 &View_Settings.AudioTab.BGMVolume.tt=此设置仅影响特定于您在库中选择的应用程序的背景音乐。\n将此值设置为 0 将完全禁用背景音乐。
 &View_Settings.AudioTab.GenOut=常规扬声器
@@ -97,6 +101,8 @@
 &View_Settings.AboutTab.DiscordBoost=Discord server boosting
 &View_Settings.AboutTab.ThanksJose=Spreading information about the emulator in socials and other kinds of help
 &View_Settings.AboutTab.CnTranslation=Chinese translation
+&View_Settings.AboutTab.FrTranslation=French translation
+&View_Settings.AboutTab.ItTranslation=Italian translation
 &View_Settings.AboutTab.PlTranslation=Polish translation
 &View_Settings.AboutTab.Compat=游戏兼容列表
 &View_Settings.AboutTab.Discord=我们的Discord
@@ -136,7 +142,7 @@
 &Details_View.Patches.Download=下载最新补丁
 &Details_View.Patches.Disclaimer=下载、使用或分发这些社区制作的可执行文件和共享库补丁，即表示您承认您对任何法律后果承担全部责任，包括遵守版权和许可法，并接受这些补丁“按原样”提供，不提供任何保证，不会导致软件故障或数据丢失，并且不保证提供正式支持，并理解此类使用并不意味着原始软件开发人员的认可，并且必须遵守所有相关的当地、国家和国际法律。
 &Details_View.Patches.PTitle=标题
-&Details_View.Trophies=奖杯
+&Details_View.Trophies=奖杯和进度
 &Details_View.Trophies.ShowSpoilers=显示隐藏的奖杯
 &Details_View.Trophies.ShowSpoilers.tt=前方剧透！！如果你勾选这个复选框，你可能会见到\n你当前不应该看到的某些信息。
 &Details_View.Trophies.CurrGame=当前标题
@@ -152,6 +158,9 @@
 &CRun_View.Stop=停止应用程序
 &Global.Cancel=取消
 &Details_View.MakeFav=收藏
+&Details_View.LastRun=最后一次运行：
+&Details_View.LastRunNever=从未运行
+&Details_View.Duration=游玩时间：
 &Details_View.AvailPatches.tt=此列表包含扫描器在特定路径找到的已选应用程序的所有官方补丁。
 &Details_View.Trophies.Info.Hidden=隐藏的奖杯：
 &Details_View.Trophies.Info.Shown=显示的奖杯：
@@ -184,9 +193,9 @@
 &Notify.Firmware.Title=固件库
 &Notify.FirmwareNoLibs.Description=必须至少选择一个合法的固件库！
 &Notify.FirmwareNoPath.Description=你选择了合法的固件库，但是没有到包含这些库目录的路径！
-&Notify.GameReportErr.Title=生成游戏报告失败
+&Notify.GameReportErr.Title=生成应用程序报告失败
 &Notify.GameReportExists.Description=我们已经知道此游戏中的问题，再次点击按钮来打开报告页面。报告信息将会复制到你的剪贴板。
-&Notify.GameReportNotify.Title=游戏报告提醒
+&Notify.GameReportNotify.Title=应用程序报告提醒
 &Notify.NoAppFolder.Description=此目录不再存在或发生了一个系统错误。
 &Notify.NoLogs.Description=打开"P7logs"目录失败，可能它根本就不存在。
 &Notify.NoReset.Description=你没有未保存的变更。
@@ -196,6 +205,7 @@
 &Notify.RestartWarn.Description=请记住某些变更的设置需要重启模拟器才生效。
 &Notify.RestartWarn.Title=配置警告
 &Notify.SavedataDesync.Description=你的配置文件和游戏文件目录不同步！这可能导致存档数据丢失或未知的后果。如果你知道你在干什么，从游戏文件目录中删除 .uuid 文件。
+&Notify.VulkanDbgLayer.Description=启用Vulkan验证层失败。请确认你安装了兼容的VulkanSDK版本。
 &Notify.SessErr.Description=建立应用程序会话失败，请检查模拟器设置。
 &Notify.SysError.Title=系统错误
 &Notify.TropUnlock.Title.Bronze=解锁铜奖杯！
@@ -219,6 +229,7 @@
 &View_SSearch.SortOpt.1=按字母顺序
 &View_SSearch.SortOpt.2=按Title ID
 &View_SSearch.SortOpt.3=最近玩过的
+&View_SSearch.SortOpt.4=游玩时间
 &View_SSearch.SortDir=按降序排序
 &View_SSearch.HideUnApp=隐藏从未打开过的应用程序
 &View_SSearch.OnlyFavApp=只显示收藏的应用程序
