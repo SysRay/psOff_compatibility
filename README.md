@@ -5,7 +5,7 @@ Offline, no PSN account required.
   
 | Discord |
 |---------|
-| [<img src="https://img.shields.io/discord/1215784508708749322?color=5865F2&label=psOff emulator&logo=discord&logoColor=white"/>](https://discord.gg/Jd2AuBN6eW) |
+| ![Discord](https://img.shields.io/discord/1215784508708749322?style=plastic&cacheSeconds=20&link=https%3A%2F%2Fdiscord.gg%2FJd2AuBN6eW) |
 
 </div>
 
