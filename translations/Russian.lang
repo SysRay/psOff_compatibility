@@ -164,6 +164,8 @@
 &Details_View.AppSpecific.SkipAjm=Пропустить Audio Job Manager
 &Details_View.AppSpecific.SkipAjm.tt=Если эта настройка активна, эмулятор проигнорирует любые вызовы\nприложения к библиотеке libSceAjm. Активация этой настройки\nможет исправить краши и зависания ценой отсутствия звука.
 &Details_View.AppSpecific.SkipMovies.tt=Если эта настройка активна, эмулятор пропустит все вызовы приложения к библиотеке libSceAjm.\nЕсли приложение использует эту библиотеку, это может привести к отсутствию звука.
+&Details_View.AppSpecific.Networking=Включить сетевой функционал (в разработке)
+&Details_View.AppSpecific.Networking.tt=Если настройка активна, эмулятор активирует эксперементальную сетевую\nподдержку, эта настройка может поломать большое количество игр!
 &Details_View.CommunityPatches=Доступные патчи сообщества
 &Details_View.Trophies=Трофеи и прогрессия
 &Details_View.Trophies.UnlockAt=Время получения
