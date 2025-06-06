@@ -132,6 +132,8 @@
 &Details_View.AppSpecific.SkipMovies.tt=如果激活这个设置，模拟器会跳过应用程序尝试回放的所有预渲染影片。
 &Details_View.AppSpecific.SkipAjm=跳过音频任务管理器
 &Details_View.AppSpecific.SkipAjm.tt=如果激活这个设置，模拟器将忽略所有libSceAjm库的调用。激活这个设置可以修复崩溃和卡死，代价是丢失部分或者全部声音。
+&Details_View.AppSpecific.Networking=启用网络 (WIP)
+&Details_View.AppSpecific.Networking.tt=如果激活这个设置，模拟器将启用实验性的网络功能，\n这个设置可能会使很多的游戏不能正常运行！
 &Details_View.CommunityPatches=可用的社区补丁
 &Details_View.Patches.Incompat=显示可能不兼容的补丁（非常危险！！！）
 &Global.Name=名称
