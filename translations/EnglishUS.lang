@@ -63,7 +63,7 @@
 &View_Settings.AudioTab.GenOut=General Speaker
 &View_Settings.AudioTab.GenOut.tt=Here you can select the output device you want to send audio from application to.
 &View_Settings.NetworkTab=Network
-&View_Settings.NetworkTab.DnsInfo=This table is used in network-enabled games only! You have to enable networking functionality for each title manually in App Specific Settings spoiler. Specifying dot before the hostname means "this domain and all subdomains" (eg. ".example.com"). The "Addresses" field can contain more than one IP address, they must be separated by a comma (eg. "127.0.0.1,127.0.0.2,127.0.0.3").
+&View_Settings.NetworkTab.DnsInfo=This DNS table is used in network-enabled games only! You have to enable networking functionality for each title manually in App Specific Settings spoiler. Specifying dot before the hostname means "this domain and all subdomains" (eg. ".example.com"). The "Addresses" field can contain more than one IP address, they must be separated by a comma (eg. "127.0.0.1,127.0.0.2,127.0.0.3").
 &View_Settings.NetworkTab.DnsTable.Host=Host name
 &View_Settings.NetworkTab.DnsTable.Addrs=Addresses
 &View_Settings.UsersTab=Users
