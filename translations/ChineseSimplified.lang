@@ -62,6 +62,10 @@
 &View_Settings.AudioTab.BGMVolume.tt=此设置仅影响特定于您在库中选择的应用程序的背景音乐。\n将此值设置为 0 将完全禁用背景音乐。
 &View_Settings.AudioTab.GenOut=常规扬声器
 &View_Settings.AudioTab.GenOut.tt=这里你可以选择应用程序的音频输出设备。
+&View_Settings.NetworkTab=网络
+&View_Settings.NetworkTab.DnsInfo=这个DNS表只用于支持网络的游戏！你需要在每个应用的特定设置中手动启用网络功能。在主机名前面指定“.”表示“此域名以及所有子域名”。 (例如 ".example.com")。  "地址"域可包含多于一个IP地址，地址之间使用逗号分隔 (例如 "127.0.0.1,127.0.0.2,127.0.0.3")。
+&View_Settings.NetworkTab.DnsTable.Host=主机名
+&View_Settings.NetworkTab.DnsTable.Addrs=地址
 &View_Settings.UsersTab=用户
 &View_Settings.UsersTab.New=新建用户
 &View_Settings.UsersTab.New.tt=此按钮创建一个新的用户。
