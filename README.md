@@ -11,11 +11,18 @@ Offline, no PSN account required.
 
 ## About the Emulator
 
-psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
+psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).\
 
-### Main Developers:
+### Main Developers
 - **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
 - **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
+
+### Hardware Requirements
+- Windows 10 (build >=1803)
+- At least 8 GB free RAM
+- Preferably 6-core CPU
+- GPU with at least 4 GB VRAM and Vulkan 1.3+ supprt
+- 256 MB free space on disk
 
 ### Features
 - [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button.
@@ -54,7 +61,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 7. The report is labeled "regression" if a new emulator version causes degraded performance, such as graphical rendering issues, missing or distorted sound, input problems, or the game failing to run entirely.
 8. The report is labeled “need-info” if it is incomplete or the developers request additional information.
 
-### Third-Party Open-Source Libraries Used:
+### Third-Party Open-Source Libraries Used
 - **[AES-128-CBC](https://github.com/halloweeks/AES-128-CBC/blob/main/LICENSE)** - AES encryption and decryption library (removed since 2025Feb23, replaced with OpenSSL implementation).
 - **[alpaca](https://github.com/p-ranav/alpaca/blob/master/LICENSE)** - Serialization library for C++17.
 - **[boost](https://www.boost.org/users/license.html)** - Cross-platform development tools.
