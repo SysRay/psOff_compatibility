@@ -11,7 +11,7 @@ Offline, no PSN account required.
 
 ## About the Emulator
 
-psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).\
+psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker. You can track our progress [here](https://github.com/users/SysRay/projects/5).
 
 ### Main Developers
 - **Ray** - Project Founder ([GitHub: @SysRay](https://github.com/SysRay))
