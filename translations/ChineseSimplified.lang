@@ -63,6 +63,7 @@
 &View_Settings.AudioTab.GenOut=常规扬声器
 &View_Settings.AudioTab.GenOut.tt=这里你可以选择应用程序的音频输出设备。
 &View_Settings.NetworkTab=网络
+&View_Settings.NetworkTab.NetAda=网络适配器
 &View_Settings.NetworkTab.DnsInfo=这个DNS表只用于支持网络的游戏！你需要在每个应用的特定设置中手动启用网络功能。在主机名前面指定“.”表示“此域名以及所有子域名”。 (例如 ".example.com")。  "地址"域可包含多于一个IP地址，地址之间使用逗号分隔 (例如 "127.0.0.1,127.0.0.2,127.0.0.3")。
 &View_Settings.NetworkTab.DnsTable.Host=主机名
 &View_Settings.NetworkTab.DnsTable.Addrs=地址
