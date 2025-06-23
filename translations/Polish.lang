@@ -170,7 +170,6 @@
 &Details_View.Trophies.Info.Hidden=Ukryte trofea:
 &Details_View.Trophies.Info.Shown=Widoczne trofea:
 &Details_View.Trophies.Info.Unlocked=Odblokowane trofea:
-&Details_View.Trophies.KeyError=Klucz trofeów w ustawieniach nie jest ustawiony lub jest nieprawidłowy.\nWprowadź klucz odszyfrowywania trofeów, aby wyświetlić tutaj poprawną listę trofeów.\nBez klucza trofeum nadal możesz odblokowywać trofea w swoich aplikacjach, ale nie będziesz mógł zobaczyć ich nazw i opisów. Jeśli wpiszesz ten klucz później, zobaczysz wszystkie odblokowane wcześniej trofea.
 &Details_View.Trophies.NotFound=Ta aplikacja nie ma trofeów!
 &Details_View.Trophies.Wait=Proszę chwilę poczekać, pracujemy nad generacją listy...
 &Global.Ok=OK

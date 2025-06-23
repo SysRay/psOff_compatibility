@@ -172,7 +172,6 @@
 &Details_View.Trophies.Info.Hidden=隐藏的奖杯：
 &Details_View.Trophies.Info.Shown=显示的奖杯：
 &Details_View.Trophies.Info.Unlocked=已解锁奖杯：
-&Details_View.Trophies.KeyError=奖杯密钥未设置或非法。请输入奖杯解密密钥来获取正确的奖杯列表。没有奖杯密钥你仍然可以解锁应用程序中的奖杯，但是你将无法看到奖杯的名称和描述。如果你在后续输入了密钥，你将可以查看所有之前解锁的奖杯。
 &Details_View.Trophies.NotFound=这个应用程序没有奖杯！
 &Details_View.Trophies.Wait=请稍后，我们正在生成一个列表...
 &Details_View.Trophies.Grade.Bronze=铜

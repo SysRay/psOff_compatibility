@@ -163,7 +163,6 @@
 &Details_View.Trophies.Info.Hidden=Trofei nascosti:
 &Details_View.Trophies.Info.Shown=Trofei mostrati:
 &Details_View.Trophies.Info.Unlocked=Trofei sbloccati:
-&Details_View.Trophies.KeyError=La Chiave Trofei nelle impostazioni non è impostata o non è valida. Inserisci la chiave di decrittazione dei trofei per ottenere l'elenco corretto dei trofei qui. Senza la chiave dei trofei puoi comunque sbloccare i trofei nelle tue app, ma non sarai in grado di vederne i nomi e le descrizioni. Se inserirai questa chiave in seguito, vedrai tutti i trofei che hai sbloccato in precedenza.
 &Details_View.Trophies.NotFound=Questa applicazione non ha trofei!
 &Details_View.Trophies.Wait=Attendi un momento, stiamo generando l'elenco...
 &Details_View.Trophies.Grade.Bronze=Bronzo

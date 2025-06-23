@@ -179,7 +179,6 @@
 &Details_View.Trophies.Info.Hidden=Trophées masqués :
 &Details_View.Trophies.Info.Shown=Trophées affichés :
 &Details_View.Trophies.Info.Unlocked=Trophées déverrouillés :
-&Details_View.Trophies.KeyError=La clé de trophée dans les paramètres n'est pas définie ou n'est pas valide. Veuillez saisir la clé de déchiffrement des trophées afin d'obtenir la liste correcte des trophées. Sans la clé, vous pouvez toujours déverrouiller les trophées dans vos applications, mais vous ne pourrez pas voir leurs noms et descriptions. Si vous saisissez cette clé ultérieurement, vous verrez tous les trophées que vous avez déverrouillés précédemment.
 &Details_View.Trophies.NotFound=Cette application ne contient aucun trophée !
 &Details_View.Trophies.Wait=Veuillez patienter un peu, nous travaillons à la génération d'une liste…
 &Global.HourShort=h.

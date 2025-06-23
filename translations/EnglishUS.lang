@@ -172,7 +172,7 @@
 &Details_View.Trophies.Info.Hidden=Hidden trophies:
 &Details_View.Trophies.Info.Shown=Shown trophies:
 &Details_View.Trophies.Info.Unlocked=Unlocked trophies:
-&Details_View.Trophies.KeyError=The Trophy Key in settings either not set at all or invalid. Please enter trophy decryption key in order to get correct trophies list here. Without the trophy key you still can unlock the trophies in your apps, but you won't be able to see their names and descriptions. If you enter this key later, you will see all the trophies you unlocked earlier.
+&Details_View.Trophies.KeyError=The Trophy Key in settings either not set at all or invalid. Please enter trophy decryption key in order to get correct trophies list here. Without the trophy key you won't be able to unlock the trophies in your apps, every unlocked trophy will be ignored. You have to unlock the trophy again once you install valid trophy key.
 &Details_View.Trophies.NotFound=This application has no trophies!
 &Details_View.Trophies.Wait=Please wait a bit, we are working on a list generation...
 &Details_View.Trophies.Grade.Bronze=Bronze
