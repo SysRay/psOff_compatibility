@@ -139,6 +139,8 @@
 &Details_View.AppSpecific.SkipAjm.tt=If this setting is active, the emulator will ignore any calls to\nthe libSceAjm library. Activating this setting can fix crashes\nand freezes at the cost of missing sound partially or entirely.
 &Details_View.AppSpecific.Networking=Enable Networking (WIP)
 &Details_View.AppSpecific.Networking.tt=If this setting is active, the emulator will enable experimental\nnetworking functionality, this setting may break a lot of games!
+&Details_View.AppSpecific.ElfMismatch=Disable SDK version check
+&Details_View.AppSpecific.ElfMismatch.tt=If this setting is active, the emulator will ignore SDK version\nissues across the libraries and executable binary.\nUse this option only if you know what you are doing!
 &Details_View.CommunityPatches=Available community patches
 &Details_View.Patches.Incompat=Show potentially incompatible patches (VERY DANGEROUS!!!)
 &Global.Name=Name
