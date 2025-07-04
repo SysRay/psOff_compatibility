@@ -139,6 +139,8 @@
 &Details_View.AppSpecific.SkipAjm.tt=如果激活这个设置，模拟器将忽略所有libSceAjm库的调用。激活这个设置可以修复崩溃和卡死，代价是丢失部分或者全部声音。
 &Details_View.AppSpecific.Networking=启用网络 (WIP)
 &Details_View.AppSpecific.Networking.tt=如果激活这个设置，模拟器将启用实验性的网络功能，\n这个设置可能会使很多的游戏不能正常运行！
+&Details_View.AppSpecific.ElfMismatch=禁用SDK版本检查
+&Details_View.AppSpecific.ElfMismatch.tt=如果激活这个设置，模拟器将忽略库和二进制可执行文件的SDK版本问题。\n只在你知道自己在干什么的情况下使用这个选项！
 &Details_View.CommunityPatches=可用的社区补丁
 &Details_View.Patches.Incompat=显示可能不兼容的补丁（非常危险！！！）
 &Global.Name=名称
