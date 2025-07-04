@@ -86,6 +86,8 @@
 &View_Settings.UsersTab.Usr.PDev.tt=Here you can select the device to use for this user. If this list is\nempty, you can try different device backends above this setting.
 &View_Settings.UsersTab.Usr.PAudio=Pad audio
 &View_Settings.UsersTab.Usr.PAudio.tt=If the application you are running supports playing audio through a\ngamepad, this audio track will be output through the audio device\nspecified here.\n\nFor example PROTOTYPE 1 game outputs radio\ncommunication through the gamepad speaker.\n\nThis setting can be changed during the application session.
+&View_Settings.UsersTab.Usr.PMic=Microphone
+&View_Settings.UsersTab.Usr.PMic.tt=If the application you are running supports or requires microphone input,\nthis device will be used as AudioIn device.\n\nThis setting can be changed during the application session.
 &View_Settings.UsersTab.Usr.Remove=Remove
 &View_Settings.UsersTab.Usr.Remove.tt=WARNING!!! This action will delete all of this user's data that ever existed!\nAll the saved data, trophies progress etc will be lost FOREVER.
 &View_Settings.UsersTab.Usr.UId=Unique id:
