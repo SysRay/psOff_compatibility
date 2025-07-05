@@ -86,6 +86,8 @@
 &View_Settings.UsersTab.Usr.PDev.tt=此处你可以选择用于当前用户的设备。如果此列表为空，你可以尝试选择此设置上面的其他的后端。
 &View_Settings.UsersTab.Usr.PAudio=手柄音频
 &View_Settings.UsersTab.Usr.PAudio.tt=如果你运行的应用程序不支持通过游戏手柄来播放音频，\n 此音轨将通过此处指定的音频设备来输出。\n\n 例如 PROTOTYPE 1 游戏通过游戏手柄扬声器来输出无线电通信。\n\n此设置可以在应用程序会话中进行变更。
+&View_Settings.UsersTab.Usr.PMic=麦克风
+&View_Settings.UsersTab.Usr.PMic.tt=如果你运行的应用程序支持或者需要麦克风输入，\n这个设备将作为音频输入设备。\n\n这个设置可以在应用程序会话中进行调整。
 &View_Settings.UsersTab.Usr.Remove=删除
 &View_Settings.UsersTab.Usr.Remove.tt=警告！！！ 这个动作将删除此用户的所有数据！\n所有的存档、奖杯进度等将永久丢失。
 &View_Settings.UsersTab.Usr.UId=唯一ID：
