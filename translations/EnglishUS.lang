@@ -37,6 +37,8 @@
 &View_Settings.GeneralTab.UpdateForce=Force Update Check
 &View_Settings.GeneralTab.MouseLock=Lock mouse cursor
 &View_Settings.GeneralTab.MouseLock.tt=If this setting is active, the mouse cursor will be locked inside the emulator window\nif any application is running. If the application supports mouse input,\nevery mouse move will be passed to it.
+&View_Settings.GeneralTab.DelLogs=Remove all old logs on start
+&View_Settings.GeneralTab.DelLogs.tt=If this checkbox is enabled, the emulator will remove\nall old log files from the logs folder.
 &View_Settings.AppScanTab=App Scanner
 &View_Settings.AppScanTab.AutoLoad=Load application library on start
 &View_Settings.AppScanTab.AutoLoad.tt=If this checkbox is enabled, the emulator will automatically\nload your library from already specified folders.
@@ -227,6 +229,8 @@
 &Notify.UsrRemove.Title=User remove confirmation
 &Notify.Welcome.Description=Hold your cursor over any item for two seconds to see the tooltip.
 &Notify.Welcome.Title=Welcome!
+&Notify.LogSize.Title=Logs folder is too big
+&Notify.LogSize.Description=Your "P7logs" folder is too big! It takes more than 512MB, you need to clear it manually.
 &View_Base.Load=Search
 &View_Base.Load.tt=Press this button to trigger the application scanner.
 &View_SSearch.UseLists=Used lists

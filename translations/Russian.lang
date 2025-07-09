@@ -57,6 +57,8 @@
 &View_Settings.GeneralTab.UpdateFreq.1=Еженедельно
 &View_Settings.GeneralTab.UpdateFreq.2=Ежедневно
 &View_Settings.GeneralTab.UpdateFreq.3=Никогда
+&View_Settings.GeneralTab.DelLogs=Удалять старые лог-файлы при запуске
+&View_Settings.GeneralTab.DelLogs.tt=Если эта настрйка активна, эмулятор будет удалять все старые\nлог-файлы прошлых запусков, оставляя только новейшие.
 &View_Settings.VideoTab=Графика
 &View_Settings.VideoTab.VSync=Включить VSync
 &View_Settings.VideoTab.VSync.tt=Эта настройка указывает должна ли использоваться вертикальная\nсинхронизация в приложении.
