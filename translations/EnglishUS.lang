@@ -146,7 +146,7 @@
 &Details_View.AppSpecific.ElfMismatch=Disable SDK version check
 &Details_View.AppSpecific.ElfMismatch.tt=If this setting is active, the emulator will ignore SDK version\nissues across the libraries and executable binary.\nUse this option only if you know what you are doing!
 &Details_View.AppSpecific.NeoMode=Run in Neo (PS4 Pro) mode
-&Details_View.AppSpecific.NeoMode.tt=If this setting is active, the emulator will run this title in PS4 Pro mode.\nHigher FPS, more RAM usage, 4k resolution.
+&Details_View.AppSpecific.NeoMode.tt=If this setting is active, the emulator will run this title in PS4 Pro mode.\nHigher FPS limit, more RAM usage, 4k resolution.
 &Details_View.CommunityPatches=Available community patches
 &Details_View.Patches.Incompat=Show potentially incompatible patches (VERY DANGEROUS!!!)
 &Global.Name=Name
