@@ -195,6 +195,7 @@
 &Notify.AppAge.DescriptionR=The content on this application has no age restrictions in your region.
 &Notify.AppAge.Title=Age restriction
 &Notify.AppScannerErr.Title=Application scanner failed
+&Notify.AppScannerErr.Inconsist=Library inconsistency detected! Rebuilding the applications list...
 &Notify.AudioConnect.Title=Audio device connected
 &Notify.AudioDisconnect.Title=Audio device disconnected
 &Notify.CheckConsole.Description=Check your terminal for more details.

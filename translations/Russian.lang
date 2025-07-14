@@ -245,6 +245,7 @@
 &Notify.CustomRunCrash.Description=Приложение упало! Проверьте Baical логи для получения дополнительной информации.
 &Notify.GameReportErr.Title=Генерация репорта провалилась
 &Notify.AppScannerErr.Title=Ошибка сканера
+&Notify.AppScannerErr.Inconsist=Обнаружено несоответстиве библиотеки! Список приложений пересоздаётся...
 &Notify.CheckConsole.Description=Проверьте терминал для получения дополнительной информации.
 &Notify.SysError.Title=Системная ошибка
 &Notify.SavedataDesync.Description=Ваш файл настроек и папка GAMEFILES рассинхронизировались! Это может привести к потере сохраненных данных или другим непредвиденным последствиям. Если вы знаете, что делаете, тогда удалите .uuid файл из папки GAMEFILES.
