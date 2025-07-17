@@ -132,6 +132,7 @@
 &View_SSearch.SortDir=Сортировать по убыванию
 &View_SSearch.HideUnApp=Скрыть неиспользованные приложения
 &View_SSearch.OnlyFavApp=Показывать только избранные приложения
+&View_SSearch.UnFav=Очистить избранное
 &View_Base.Load=Поиск
 &View_Base.Load.tt=Нажмите эту кнопку чтобы запустить сканер приложений.
 &View_Base.GamesFilterLabel=Поиск по списку

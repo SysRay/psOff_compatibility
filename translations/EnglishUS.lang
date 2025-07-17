@@ -251,6 +251,7 @@
 &View_SSearch.SortDir=Sort by descending
 &View_SSearch.HideUnApp=Hide never opened applications
 &View_SSearch.OnlyFavApp=Show only favorite applications
+&View_SSearch.UnFav=Clear favorites list
 &View_Dialog.Error.EDesc=Error code:
 &View_Dialog.Error.EFacil=Facility:
 &View_Dialog.Error.Title=SCE error occurred!
