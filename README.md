@@ -18,7 +18,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - **Daydreamer** - Secondary Developer ([GitHub: @igor725](https://github.com/igor725))
 
 ### Hardware Requirements
-- Windows 10 (build >=1803, for pre-18Jun2025 builds >=22H2) and above.
+- Windows 10 (build >=1803) and above.
 - At least 8 GB free RAM.
 - Preferably 6-core CPU.
 - GPU with at least 4 GB VRAM and Vulkan 1.3+ support.
@@ -27,7 +27,8 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 ### Features
 - [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button.
 - [x] **Couch Co-Op** – Play local multiplayer with up to 3 friends using multiple gamepads (it is possible to emulate gamepad using keyboard too – check bottom of README for keybinds).
-- [x] **LAN play** - A WIP network layer emulation that technically enables multiplayer gameplay for games with LAN support. So far, it has only been tested on a few titles and proven to work, but other titles may experience issues.
+- [x] **LAN Play** - A WIP network layer emulation that technically enables multiplayer gameplay for games with LAN support. So far, it has only been tested on a few titles and proven to work, but other titles may experience issues.
+- [x] **Neo Mode** - Per-title setting to run applications in PlayStation 4 Pro mode (higher resolution, framerate and RAM usage).
 - [x] **PS4 Firmware Modules** – Load system modules for broader compatibility.
 - [x] **Community Patches** – Supports [illusion0001's patches](https://github.com/illusion0001/PS4-PS5-Game-Patch) *(manual installation required for now – check our Discord for more info)*.
 - [x] **Per-Game Settings** – Customize FPS limits, resolution, and other options per title.
