@@ -146,7 +146,6 @@
 &Details_View.Trophies.CurrGame=Titolo attuale
 &Details_View.Trophies.CurrUser=Utente attuale
 &Details_View.Trophies.UnlockAt=Sbloccato il
-&Details_View.HintUIOpen=Premi "Spazio" sulla tastiera o "Share" sul gamepad per mostrare la GUI dell'emulatore durante la sessione dell'applicazione.
 &CRun_View.BinPath=Percorso binario
 &CRun_View.RootPath=Percorso radice
 &CRun_View.Args=Argomenti esecuzione

@@ -25,6 +25,7 @@
 &View_Settings.GeneralTab.UpdateFreq.1=Weekly
 &View_Settings.GeneralTab.UpdateFreq.2=Daily
 &View_Settings.GeneralTab.UpdateFreq.3=Never
+&View_Settings.GeneralTab.UiKey=Overlay keybind
 &View_Settings.GeneralTab.TropKey=Trophy Key
 &View_Settings.GeneralTab.TropKey.tt=The trophy data on PlayStation consoles is encrypted.\nYou should dump this key from your PS4 console and type it\nhere in hexadecimal format. This setting is optional, but\nif you do not specify the correct key, application functions\nrelated to trophies will not work properly.\n\nYou should restart your application to apply this setting.
 &View_Settings.GeneralTab.Tooltips=Show UI tooltips
@@ -163,7 +164,7 @@
 &Details_View.Trophies.CurrGame=Current title
 &Details_View.Trophies.CurrUser=Current user
 &Details_View.Trophies.UnlockAt=Unlocked at
-&Details_View.HintUIOpen=Press "Space" on keyboard or "Share" on gamepad to show the emulator GUI during the application session.
+&Details_View.HintUIOpen=Press your configured keyboard button from settings or the "Share" button on your gamepad to show the emulator overlay during the application session.
 &CRun_View.BinPath=Application binary path
 &CRun_View.RootPath=Application root path
 &CRun_View.Args=Application run args

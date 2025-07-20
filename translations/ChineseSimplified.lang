@@ -159,7 +159,6 @@
 &Details_View.Trophies.CurrGame=当前标题
 &Details_View.Trophies.CurrUser=当前用户
 &Details_View.Trophies.UnlockAt=解锁于
-&Details_View.HintUIOpen=在应用程序会话中按下键盘上的"空格键"或手柄上的"share"键来显示模拟器用户界面。
 &CRun_View.BinPath=应用程序二进制文件路径
 &CRun_View.RootPath=应用程序根路径
 &CRun_View.Args=应用程序允许参数

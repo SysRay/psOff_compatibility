@@ -94,7 +94,6 @@
 &Details_View.Patches.NotFound=Brak łatek dla tej aplikacji tej wersji. Aplikacja nie ma łatek społecznościowych albo nie masz folderu o nazwie "patches" obok pliku wykonywalnego psOff.exe.
 &Details_View.Patches.Download=Pobierz najnowsze łatki
 &Details_View.Patches.Disclaimer=Pobierając, używając lub rozpowszechniając te stworzone przez społeczność łatki do aplikacji/gier i współdzielonych bibliotek, uznajesz, że ponosisz wyłączną odpowiedzialność za wszelkie konsekwencje prawne, w tym przestrzeganie praw autorskich i licencjonowania, i zgadzasz się, że te łatki są dostarczane "tak jak są" bez żadnych gwarancji, co może prowadzić do awarii programów lub utraty danych, i że nie ma gwarancji oficjalnego wsparcia, rozumiejąc przy tym, że takie użycie nie oznacza poparcia ze strony twórców oryginalnego oprogramowania i musi być zgodne ze wszystkimi odpowiednimi lokalnymi, krajowymi oraz międzynarodowymi przepisami prawa.
-&Details_View.HintUIOpen=Naciśnij "Spację", aby wyświetlić interfejs graficzny emulatora podczas sesji aplikacji.
 &CRun_View.BinPath=Ścieżka aplikacji binarnej
 &CRun_View.RootPath=Ścieżka główna aplikacji
 &CRun_View.Args=Argumenty uruchomienia aplikacji

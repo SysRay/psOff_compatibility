@@ -144,7 +144,6 @@
 &Details_View.Trophies.CurrGame=Titre actuel
 &Details_View.Trophies.CurrUser=Utilisateur actuel
 &Details_View.Trophies.UnlockAt=Déverrouillé à
-&Details_View.HintUIOpen=Appuyez sur « Espace » sur le clavier ou sur « Partager » sur la manette pour afficher l'interface graphique de l'émulateur pendant la session d'application.
 &CRun_View.BinPath=Chemin binaire 
 &CRun_View.RootPath=Chemin racine 
 &CRun_View.Args=Arguments d'exécution 
