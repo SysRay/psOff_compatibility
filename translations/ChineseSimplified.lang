@@ -254,7 +254,7 @@
 &View_Dialog.SysMsg.UsrChat=聊天被限制
 &View_Dialog.SysMsg.UsrGenCont=用户生成内容被限制
 &View_Dialog.SysMsg.UsrStore=当前用户无产品可用。
-&View_Dialog.UpdaterChild.Description=要更新模拟器版本，你首先需要关闭正在运行的应用程序和所有用户界面窗口。
+&View_Dialog.UpdaterChild.Description=要更新模拟器版本，你首先需要关闭正在运行的应用程序。
 &View_Dialog.UpdaterError.DescriptionConsole=检查控制台以获取更详细的信息。模拟器将在你关闭对话框后完全关闭。
 &View_Dialog.UpdaterError.Title=更新失败！
 &View_Dialog.UpdaterNewFFmpegVer.Description=你的FFmpeg版本已过期，你想要更新到最新版本吗？

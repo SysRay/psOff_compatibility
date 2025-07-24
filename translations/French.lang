@@ -238,7 +238,7 @@
 &View_Dialog.SysMsg.UsrChat=Le chat est restreint
 &View_Dialog.SysMsg.UsrGenCont=Le contenu généré par l'utilisateur est restreint
 &View_Dialog.SysMsg.UsrStore=Aucun produit n'est disponible pour l'utilisateur
-&View_Dialog.UpdaterChild.Description=Pour mettre à jour la version de votre émulateur, fermez d'abord l'application en cours d'exécution et toutes les fenêtres de l'interface utilisateur !
+&View_Dialog.UpdaterChild.Description=Pour mettre à jour la version de votre émulateur, fermez d'abord l'application en cours d'exécution!
 &View_Dialog.UpdaterError.DescriptionConsole=Consultez la console pour plus de détails. L'émulateur sera complètement fermé une fois cette boîte de dialogue fermée.
 &View_Dialog.UpdaterError.Title=Échec de la mise à jour !
 &View_Dialog.UpdaterNewFFmpegVer.Description=Votre version de FFmpeg est obsolète. Souhaitez-vous la mettre à jour ?

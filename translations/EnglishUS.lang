@@ -264,7 +264,7 @@
 &View_Dialog.SysMsg.UsrChat=Chat is restricted
 &View_Dialog.SysMsg.UsrGenCont=User generated content is restricted
 &View_Dialog.SysMsg.UsrStore=There is no product available to the user
-&View_Dialog.UpdaterChild.Description=To update your emulator version, you should close running application and all UI windows first!
+&View_Dialog.UpdaterChild.Description=To update your emulator version, you should close running application first!
 &View_Dialog.UpdaterError.DescriptionConsole=Check the console to get more details. The emulator will be closed entirely once you close this dialog.
 &View_Dialog.UpdaterError.Title=Updater failed!
 &View_Dialog.UpdaterNewFFmpegVer.Description=Your FFmpeg version is out of date. Do you want to update to the latest version?

@@ -185,7 +185,7 @@
 &View_Dialog.SysMsg.UsrChat=Czat jest ograniczony
 &View_Dialog.SysMsg.UsrGenCont=Treści generowane przez użytkowników podlegają ograniczeniom
 &View_Dialog.SysMsg.UsrStore=Żaden produkt nie jest dostępny dla użytkownika
-&View_Dialog.UpdaterChild.Description=Aby zaktualizować wersję emulatora, należy najpierw zamknąć uruchomioną aplikację i wszystkie okna interfejsu użytkownika!
+&View_Dialog.UpdaterChild.Description=Aby zaktualizować wersję emulatora, należy najpierw zamknąć uruchomioną aplikację!
 &View_Dialog.UpdaterError.DescriptionConsole=Sprawdź konsolę, aby uzyskać więcej szczegółów.
 &View_Dialog.UpdaterError.ExitBtn=Zamknij emulator
 &View_Dialog.UpdaterError.Title=Aktualizacja nie powiodła się!

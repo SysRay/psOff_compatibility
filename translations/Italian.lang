@@ -240,7 +240,7 @@
 &View_Dialog.SysMsg.UsrChat=Chat limitata
 &View_Dialog.SysMsg.UsrGenCont=Contenuto generato dall'utente limitato
 &View_Dialog.SysMsg.UsrStore=Non ci sono prodotti disponibili per l'utente
-&View_Dialog.UpdaterChild.Description=Per aggiornare la versione del tuo emulatore, devi prima chiudere l'applicazione in esecuzione e tutte le finestre dell'interfaccia utente!
+&View_Dialog.UpdaterChild.Description=Per aggiornare la versione del tuo emulatore, devi prima chiudere l'applicazione in esecuzione!
 &View_Dialog.UpdaterError.DescriptionConsole=Controlla la console per maggiori dettagli. L'emulatore verrà chiuso completamente una volta chiusa questa finestra di dialogo.
 &View_Dialog.UpdaterError.Title=Aggiornamento fallito!
 &View_Dialog.UpdaterNewFFmpegVer.Description=La tua versione di FFmpeg non è aggiornata. Vuoi aggiornare all'ultima versione?
