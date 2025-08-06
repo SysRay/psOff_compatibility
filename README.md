@@ -25,7 +25,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - 256 MB of free space on disk.
 
 ### Features
-- [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button.
+- [x] **Overlay User Interface** – Accessible in-game anytime via `Share` (gamepad) or `Space` (keyboard) button, the last one can be adjusted in settings.
 - [x] **Couch Co-Op** – Play local multiplayer with up to 3 friends using multiple gamepads (it is possible to emulate gamepad using keyboard too – check bottom of README for keybinds).
 - [x] **LAN Play** - A WIP network layer emulation that technically enables multiplayer gameplay for games with LAN support. So far, it has only been tested on a few titles and proven to work, but other titles may experience issues.
 - [x] **Neo Mode** - Per-title setting to run applications in PlayStation 4 Pro mode (higher resolution, framerate and RAM usage).
@@ -71,7 +71,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - **[Fixed Containers](https://github.com/teslamotors/fixed-containers/blob/main/LICENSE)** - C++20 containers library.
 - **[googletest](https://github.com/google/googletest/blob/main/LICENSE)** - Google Testing and Mocking Framework.
 - **[imgui](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)** - Bloat-free graphical user interface.
-- **[libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md)** - Logger and telemetry library (removed since 2025Jul30u).
+- **[libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md)** - Logger and telemetry library (removed since 2025Jul30u, replaced with spdlog).
 - **[libpng](https://github.com/pnggroup/libpng/blob/libpng16/LICENSE)** - Portable Network Graphics library.
 - **[libzip](https://github.com/nih-at/libzip/blob/main/LICENSE)** - C library for managing zip archives.
 - **[magic_enum](https://github.com/Neargye/magic_enum/blob/master/LICENSE)** - Static reflection for enums in modern C++.
