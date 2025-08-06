@@ -50,8 +50,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 3. Log files are mandatory. Issues without logs will be closed within 24 hours. (Exception: If the game runs perfectly with no issues, log files are optional.)
 4. Submit issue reports **WITHOUT** community patches enabled.
 5. Provide as much information as possible. Detailed information is crucial for resolving issues.
-6. Log files must be in FileBin format (`*.p7d`). Since these files cannot be uploaded directly to GitHub, compress them into a zip, tar, or 7z archive and attach the archive to your issue.
-7. Specifying the game engine in your report is encouraged, if known.
+6. Specifying the game engine in your report is encouraged, if known.
 
 ## Compatibility List - Issue Labeling Rules
 1. The game status is updated to "Intro" if the emulator can display at least one intro screen (audio/video or both) or reach the game's main menu in any form.
@@ -72,7 +71,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - **[Fixed Containers](https://github.com/teslamotors/fixed-containers/blob/main/LICENSE)** - C++20 containers library.
 - **[googletest](https://github.com/google/googletest/blob/main/LICENSE)** - Google Testing and Mocking Framework.
 - **[imgui](https://github.com/ocornut/imgui/blob/master/LICENSE.txt)** - Bloat-free graphical user interface.
-- **[libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md)** - Logger and telemetry library.
+- **[libp7-baical](https://github.com/CMakePorts/libp7-baical/blob/cmake/LICENSE.md)** - Logger and telemetry library (removed since 2025Jul30u).
 - **[libpng](https://github.com/pnggroup/libpng/blob/libpng16/LICENSE)** - Portable Network Graphics library.
 - **[libzip](https://github.com/nih-at/libzip/blob/main/LICENSE)** - C library for managing zip archives.
 - **[magic_enum](https://github.com/Neargye/magic_enum/blob/master/LICENSE)** - Static reflection for enums in modern C++.
@@ -81,6 +80,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 - **[pugixml](https://github.com/zeux/pugixml/blob/master/LICENSE.md)** - Lightweight, fast XML parser.
 - **[RenderDoc](https://github.com/baldurk/renderdoc/blob/v1.x/LICENSE.md)** - Standalone graphics debugger.
 - **[SDL](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt)** - Simple DirectMedia Layer.
+- **[spdlog](https://github.com/gabime/spdlog/blob/v1.x/LICENSE)** - Fast C++ logging library
 - **[tracy](https://github.com/wolfpld/tracy/blob/master/LICENSE)** - Graphics frame profiler.
 - **[VMA](https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/blob/master/LICENSE.txt)** - Vulkan memory allocation library.
 - **[xxHash](https://github.com/Cyan4973/xxHash/blob/dev/LICENSE)** - Extremely fast non-cryptographic hash algorithm.
