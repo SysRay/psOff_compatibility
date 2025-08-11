@@ -25,18 +25,21 @@
 &View_Settings.GeneralTab.UpdateFreq.1=每周
 &View_Settings.GeneralTab.UpdateFreq.2=每日
 &View_Settings.GeneralTab.UpdateFreq.3=从不
+&View_Settings.GeneralTab.UiKey=叠加显示绑定键
 &View_Settings.GeneralTab.TropKey=奖杯密钥
 &View_Settings.GeneralTab.TropKey.tt=PS主机上的奖杯数据是加密的。\n你要从PS4主机中转储出这个密钥然后以十六进制格式输入到此处。\n这个设置是可选的，但是如果你不指定正确的密钥，\n与奖杯相关的应用程序功能将不正常。\n\n你需要重启应用程序来应用这个设置。
 &View_Settings.GeneralTab.Tooltips=显示用户界面工具提示
 &View_Settings.GeneralTab.Tooltips.tt=如果你禁用这个选项，像当前这样的工具提示将不显示。
 &View_Settings.GeneralTab.AgeRestrict=为应用程序显示年龄限制提醒
-&View_Settings.GeneralTab.AgeRestrict.tt=如果启用这个复选框，并且应用程序开发者设置了年龄限制，关于年龄限制的信息将会在应用程序启动时显示。
+&View_Settings.GeneralTab.AgeRestrict.tt=如果勾选这个复选框，并且应用程序开发者设置了年龄限制，关于年龄限制的信息将会在应用程序启动时显示。
 &View_Settings.GeneralTab.JapCn=在用户界面中启用中文和日文字符支持（会显著增加内存使用量！）。 
 &View_Settings.GeneralTab.CommStart=在应用程序启动时应用已启用的社区补丁
 &View_Settings.GeneralTab.DevGame=在游戏时显示开发者信息
 &View_Settings.GeneralTab.UpdateForce=强制更新检查
 &View_Settings.GeneralTab.MouseLock=锁定鼠标指针
 &View_Settings.GeneralTab.MouseLock.tt=如果激活这个设置，应用程序在运行的时候鼠标指针将被锁定在模拟器窗口中。\n 如果应用程序支持鼠标输入，\n任何鼠标移动都会被传递给应用程序。
+&View_Settings.GeneralTab.DelLogs=启动时删除所有旧日志
+&View_Settings.GeneralTab.DelLogs.tt=如果勾选这个复选框，模拟器将从日志目录中删除所有旧日志文件。
 &View_Settings.AppScanTab=应用程序扫描器
 &View_Settings.AppScanTab.AutoLoad=启动时载入应用程序库
 &View_Settings.AppScanTab.AutoLoad.tt=如果启用这个复选框，模拟器将从已指定的目录自动载入你的库。
@@ -143,6 +146,8 @@
 &Details_View.AppSpecific.Networking.tt=如果激活这个设置，模拟器将启用实验性的网络功能，\n这个设置可能会使很多的游戏不能正常运行！
 &Details_View.AppSpecific.ElfMismatch=禁用SDK版本检查
 &Details_View.AppSpecific.ElfMismatch.tt=如果激活这个设置，模拟器将忽略库和二进制可执行文件的SDK版本问题。\n只在你知道自己在干什么的情况下使用这个选项！
+&Details_View.AppSpecific.NeoMode=以Neo(PS4 Pro)模式运行
+&Details_View.AppSpecific.NeoMode.tt=如果激活这个设置，模拟器将用PS4 Pro模式来运行这个游戏。\n更高的FPS限制，更多的内存使用量，4K分辨率。
 &Details_View.CommunityPatches=可用的社区补丁
 &Details_View.Patches.Incompat=显示可能不兼容的补丁（非常危险！！！）
 &Global.Name=名称
@@ -159,6 +164,7 @@
 &Details_View.Trophies.CurrGame=当前标题
 &Details_View.Trophies.CurrUser=当前用户
 &Details_View.Trophies.UnlockAt=解锁于
+&Details_View.HintUIOpen=在应用程序运行中按下你在设置中配置的键盘按键或者手柄上的"Share"按键来叠加显示模拟器。
 &CRun_View.BinPath=应用程序二进制文件路径
 &CRun_View.RootPath=应用程序根路径
 &CRun_View.Args=应用程序允许参数
@@ -190,6 +196,7 @@
 &Notify.AppAge.DescriptionR=此应用程序内容在你所在区域没有年龄限制。
 &Notify.AppAge.Title=年龄限制
 &Notify.AppScannerErr.Title=应用程序扫描失败
+&Notify.AppScannerErr.Inconsist=检测到库不一致！重建应用列表中...
 &Notify.AudioConnect.Title=音频设备已连接
 &Notify.AudioDisconnect.Title=音频设备已断开连接
 &Notify.CheckConsole.Description=检查终端来获取更详细的信息。
@@ -226,6 +233,8 @@
 &Notify.UsrRemove.Title=删除用户确认
 &Notify.Welcome.Description=将指针悬停在任意项目上2秒来查看工具提示。
 &Notify.Welcome.Title=欢迎！
+&Notify.LogSize.Title=日志目录过大
+&Notify.LogSize.Description=你的“P7logs”目录过大！占用超过512MB空间，请手动清理它。
 &View_Base.Load=搜索
 &View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
 &View_SSearch.UseLists=使用的列表
@@ -243,7 +252,8 @@
 &View_SSearch.SortDir=按降序排序
 &View_SSearch.HideUnApp=隐藏从未打开过的应用程序
 &View_SSearch.OnlyFavApp=只显示收藏的应用程序
-&View_Dialog.Error.EDesc=错误代码：
+&View_SSearch.UnFav=清空收藏列表
+&View_Dialog.Error.EDesc=错误代码:
 &View_Dialog.Error.EFacil=Facility:
 &View_Dialog.Error.Title=SCE发生了错误！
 &View_Dialog.Msg.Title=应用程序消息
