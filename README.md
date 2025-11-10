@@ -19,7 +19,7 @@ psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in
 
 ### Hardware Requirements
 - Windows 10 20H2 and above.
-- At least 8 GB free RAM.
+- At least 8 GB of free RAM (12 GB or more total).
 - Preferably 6-core CPU.
 - GPU with at least 4 GB VRAM and Vulkan 1.3+ support.
 - 256 MB of free space on disk.
