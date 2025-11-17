@@ -175,6 +175,8 @@
 &Details_View.AppSpecific.ElfMismatch.tt=Если эта настрйка активна, эмулятор будет игнорировать проблемы\nнесоответствия SDK версий библиотек и исполняемых файлов приложения.\nВключать эту настройку стоит только если вы знаете, что делаете!
 &Details_View.AppSpecific.NeoMode=Запускать в Neo (PS4 Pro) режиме
 &Details_View.AppSpecific.NeoMode.tt=Если эта настройка активна, эмулятор запустит это приложение в режиме PS4 Pro.\nПовышенный предел FPS, больше использование оперативной памяти, 4k разрешение.
+&Details_View.AppSpecific.IntWorkAround=Включить обход обработки перехвата геймпада
+&Details_View.AppSpecific.IntWorkAround.tt=Если эта игра продолжает принимать ввод даже когда оверлей эмулятора активен,\nустановка этой настройки поможет решить данную проблему. 
 &Details_View.CommunityPatches=Доступные патчи сообщества
 &Details_View.Trophies=Трофеи и прогрессия
 &Details_View.Trophies.UnlockAt=Время получения
