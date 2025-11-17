@@ -11,6 +11,7 @@
 &View_Settings.Reset=Reset Changes
 &View_Settings.Save=Save
 &View_Settings.RestartHint=Some of changed settings will be applied after emulator restart.
+&View_Settings.PadCalib.Warning=For optimization reasons the data read from gamepad will be displayed only when PS4 application is reading gamepad data. You can adjust any setting here regardless, everything will be saved and applied.
 &View_Settings.GeneralTab=General
 &View_Settings.GeneralTab.Country=Country
 &View_Settings.GeneralTab.Country.tt=This setting specifies the country to be reported to applications you launch. Some of applications may apply regional restrictions using this setting.
@@ -93,6 +94,8 @@
 &View_Settings.UsersTab.Usr.PMic.tt=If the application you are running supports or requires microphone input,\nthis device will be used as AudioIn device.\n\nThis setting can be changed during the application session.
 &View_Settings.UsersTab.Usr.Remove=Remove
 &View_Settings.UsersTab.Usr.Remove.tt=WARNING!!! This action will delete all of this user's data that ever existed!\nAll the saved data, trophies progress etc will be lost FOREVER.
+&View_Settings.UsersTab.Usr.Calibrate=Calibrate
+&View_Settings.UsersTab.Usr.Calibrate.tt=Press this button to open gamepad calibration window.
 &View_Settings.UsersTab.Usr.UId=Unique id:
 &View_Settings.FirmTab=Firmware
 &View_Settings.FirmTab.Lib=Firmware folder "common/lib" path
