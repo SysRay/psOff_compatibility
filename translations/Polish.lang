@@ -176,7 +176,7 @@
 &Notify.SavedataDesync.Description=Twój plik konfiguracyjny i folder GAMEFILES nie są zsynchronizowane! Może to prowadzić do utraty zapisanych danych lub nieoczekiwanych konsekwencji. Jeśli wiesz co robisz, usuń plik .uuid z katalogu GAMEFILES.
 &View_Dialog.Error.EDesc=Kod błędu:
 &View_Dialog.Error.EFacil=Źródło:
-&View_Dialog.Error.Title=Nastąpił błąd SCE! 
+&View_Dialog.Error.Title=Nastąpił błąd SCE!
 &View_Dialog.Msg.Title=Komunikat aplikacji
 &View_Dialog.SysMsg.Camera=PlayStation\xc2\xae Kamera nie jest podłączona
 &View_Dialog.SysMsg.Comm=Komunikacja PSN jest ograniczona
@@ -243,7 +243,7 @@
 &Details_View.AppSpecific.SkipAjm=Pomiń Audio Job Manager
 &Details_View.AppSpecific.SkipAjm.tt=Gdy to ustawienie jest aktywne, emulator zignoruje wszystkie wywołania\ndo biblioteki libSceAjm. Włączenie tego ustawienia może naprawić\nawarie i zawieszanie się gry kosztem częściowego lub całkowitego braku dźwięku.
 &Details_View.AppSpecific.ElfMismatch=Wyłącz sprawdzenie wersji SDK
-&Details_View.AppSpecific.ElfMismatch.tt=Gdy to ustawienie jest aktywne, emulator zignoruje błędy\nz wersją SDK w bibliotekach i pliku wykonalnym.\nUżywaj tej opcji tylko, jeśli wiesz, co robisz! 
+&Details_View.AppSpecific.ElfMismatch.tt=Gdy to ustawienie jest aktywne, emulator zignoruje błędy\nz wersją SDK w bibliotekach i pliku wykonalnym.\nUżywaj tej opcji tylko, jeśli wiesz, co robisz!
 &Details_View.AppSpecific.NeoMode=Uruchom w trybie NEO (PS4 Pro)
 &Details_View.AppSpecific.NeoMode.tt=Gdy to ustawienie jest aktywne, emulator uruchomi ten tytuł w trybie PS4 Pro (NEO).\nWyższy limit FPS, większe zużycie pamięci RAM, rozdzielczość 4K.
 &Details_View.Patches.PTitle=Tytuł

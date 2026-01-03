@@ -32,7 +32,7 @@
 &View_Settings.GeneralTab.Tooltips.tt=如果你禁用这个选项，像当前这样的工具提示将不显示。
 &View_Settings.GeneralTab.AgeRestrict=为应用程序显示年龄限制提醒
 &View_Settings.GeneralTab.AgeRestrict.tt=如果勾选这个复选框，并且应用程序开发者设置了年龄限制，关于年龄限制的信息将会在应用程序启动时显示。
-&View_Settings.GeneralTab.JapCn=在用户界面中启用中文和日文字符支持（会显著增加内存使用量！）。 
+&View_Settings.GeneralTab.JapCn=在用户界面中启用中文和日文字符支持（会显著增加内存使用量！）。
 &View_Settings.GeneralTab.CommStart=在应用程序启动时应用已启用的社区补丁
 &View_Settings.GeneralTab.DevGame=在游戏时显示开发者信息
 &View_Settings.GeneralTab.UpdateForce=强制更新检查
@@ -133,7 +133,7 @@
 &Details_View.Feedback=发送反馈
 &Details_View.AppSpecific=应用程序特有设置
 &Details_View.AppSpecific.FrameRate=帧率限制
-&Details_View.AppSpecific.FrameRate.tt=如果应用程序支持更高帧率，变更这个设置可能让图像更平滑。 
+&Details_View.AppSpecific.FrameRate.tt=如果应用程序支持更高帧率，变更这个设置可能让图像更平滑。
 &Details_View.AppSpecific.FrameRate.0=应用程序默认
 &Details_View.AppSpecific.FrameRate.1=全局VSync设置
 &Details_View.AppSpecific.FrameRate.2=强制VSync

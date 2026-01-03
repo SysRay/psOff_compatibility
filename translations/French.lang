@@ -33,7 +33,7 @@
 &View_Settings.GeneralTab.UpdateForce=Forcer la vérification des mises à jour
 &View_Settings.AppScanTab=Scanneur d'applications
 &View_Settings.AppScanTab.AutoLoad=Charger la bibliothèque d'applications au démarrage
-&View_Settings.AppScanTab.AutoLoad.tt=Si cette case est cochée, l'émulateur chargera automatiquement votre bibliothèque à partir des dossiers spécifiés. 
+&View_Settings.AppScanTab.AutoLoad.tt=Si cette case est cochée, l'émulateur chargera automatiquement votre bibliothèque à partir des dossiers spécifiés.
 &View_Settings.AppScanTab.ScanDepth=Profondeur de récursivité de l'analyseur d'applications
 &View_Settings.AppScanTab.ScanDepth.tt=Ce paramètre spécifie la profondeur de la structure des dossiers à laquelle l'analyseur d'applications doit accéder lors de la génération de la bibliothèque d'applications.
 &View_Settings.AppScanTab.Table.Paths=Chemins de recherche
@@ -100,7 +100,7 @@
 &View_Settings.AboutTab.PlTranslation=Traduction polonaise
 &View_Settings.AboutTab.Compat=Notre liste de compatibilité
 &View_Settings.AboutTab.Discord=Notre serveur Discord
-&View_Base.GamesFilter.tt=Utilisez ce champ pour rechercher des applications dans votre bibliothèque. 
+&View_Base.GamesFilter.tt=Utilisez ce champ pour rechercher des applications dans votre bibliothèque.
 &View_Base.GamesFilterLabel=Recherche dans la bibliothèque
 &View_Base.GamesList.tt=Cette liste contient toutes les applications trouvées par l'analyseur.
 &Details_View.Settings=Paramètres
@@ -144,9 +144,9 @@
 &Details_View.Trophies.CurrGame=Titre actuel
 &Details_View.Trophies.CurrUser=Utilisateur actuel
 &Details_View.Trophies.UnlockAt=Déverrouillé à
-&CRun_View.BinPath=Chemin binaire 
-&CRun_View.RootPath=Chemin racine 
-&CRun_View.Args=Arguments d'exécution 
+&CRun_View.BinPath=Chemin binaire
+&CRun_View.RootPath=Chemin racine
+&CRun_View.Args=Arguments d'exécution
 &CRun_View.Recent=Exécutions récentes
 &CRun_View.AutoFill=Remplir automatiquement le chemin racine
 &CRun_View.Run=Exécuter l'application
@@ -193,7 +193,7 @@
 &Notify.AudioDisconnect.Title=Périphérique audio déconnecté
 &Notify.CheckConsole.Description=Vérifiez votre terminal pour plus de détails.
 &Notify.CloudSync.Description=L'exécution de l'émulateur depuis le répertoire de synchronisation cloud est interdite ! Veuillez déplacer le dossier contenant l'émulateur vers un autre emplacement.
-&Notify.CommPatchWarn.Description=Nous n'acceptons pas les signalements de correctifs communautaires actifs ni de paramètres spécifiques à l'application pour le moment. 
+&Notify.CommPatchWarn.Description=Nous n'acceptons pas les signalements de correctifs communautaires actifs ni de paramètres spécifiques à l'application pour le moment.
 &Notify.CommPatchWarn.Title=Avertissement concernant les correctifs communautaires
 &Notify.CustomRun.Title=Exécution personnalisée
 &Notify.CustomRunCrash.Description=L'application vient de planter ! Consultez les journaux de Baical pour plus de détails.
@@ -201,7 +201,7 @@
 &Notify.FFmissing.Description=Échec du chargement de FFmpeg. Des fichiers audio ou vidéo peuvent manquer à certains endroits.
 &Notify.Firmware.Title=Bibliothèques de micrologiciels
 &Notify.FirmwareNoLibs.Description=Au moins une bibliothèque de micrologiciels autorisée doit être sélectionnée !
-&Notify.FirmwareNoPath.Description=Vous avez sélectionné des bibliothèques de micrologiciels autorisées, mais il n'existe aucun chemin d'accès au dossier contenant ces bibliothèques ! 
+&Notify.FirmwareNoPath.Description=Vous avez sélectionné des bibliothèques de micrologiciels autorisées, mais il n'existe aucun chemin d'accès au dossier contenant ces bibliothèques !
 &Notify.GameReportErr.Title=Échec de la génération du rapport d'application
 &Notify.GameReportExists.Description=Nous connaissons déjà les problèmes rencontrés avec cette application. Cliquez à nouveau sur le bouton pour ouvrir la page de rapport. Les informations du rapport seront copiées dans votre presse-papiers.
 &Notify.GameReportNotify.Title=Notification du rapport d'application
