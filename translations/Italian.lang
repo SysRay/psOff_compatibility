@@ -105,7 +105,7 @@
 &View_Settings.AboutTab.HeadingText=psOff è un emulatore PlayStation 4 (livello di compatibilità) closed-source scritto in C++20. Il progetto è ancora nelle sue fasi iniziali e molti giochi potrebbero non funzionare ancora correttamente. Tuttavia, miglioriamo continuamente la compatibilità e le prestazioni. Rimani aggiornato tramite il nostro server Discord e il Compatibility Tracker (ci sono link a queste risorse in fondo a questa pagina).\n\nSviluppatori Principali:\n* Ray - Fondatore del Progetto (GitHub: @SysRay)\n* Daydreamer - Sviluppatore Secondario (GitHub: @igor725)\n\nQuesto progetto utilizza le seguenti librerie open source di terze parti:\n
 &View_Settings.AboutTab.License=Licenza
 &View_Settings.AboutTab.ThanksList=Ringraziamenti speciali alle seguenti persone che ci hanno aiutato durante il nostro percorso:
-&View_Settings.AboutTab.ThanksRedPrig=Innumerevole aiuto disinteressato all'intera comunità di emulazione PS4
+&View_Settings.AboutTab.ThanksRedPrig=Inestimabile aiuto disinteressato all'intera comunità di emulazione PS4
 &View_Settings.AboutTab.ThanksKrispy=Moderazione server Discord
 &View_Settings.AboutTab.AlphaTesting=Test Alfa
 &View_Settings.AboutTab.PublicContrib=Contributi a psOff_public
@@ -219,7 +219,7 @@
 &Notify.GameReportExists.Description=Siamo già a conoscenza dei problemi in questa applicazione, fai nuovamente clic sul pulsante per aprire la pagina del report. Le informazioni del report verranno copiate negli appunti.
 &Notify.GameReportNotify.Title=Notifica report applicazione
 &Notify.NoAppFolder.Description=Questa cartella non esiste più o si è verificato un errore di sistema.
-&Notify.NoLogs.Description=Impossibile aprire la cartella "logs", probabilmente non esiste affatto.
+&Notify.NoLogs.Description=Impossibile aprire la cartella "P7logs", probabilmente non esiste affatto.
 &Notify.NoReset.Description=Non hai modifiche non salvate.
 &Notify.NoReset.Title=Niente da annullare!
 &Notify.NoSaveData.Description=Cartella SaveData non trovata. Devi eseguire l'applicazione almeno una volta per far apparire questa cartella.
@@ -249,12 +249,12 @@
 &View_SSearch.MinSDK=SDK Minimo
 &View_SSearch.MaxSDK=SDK Massimo
 &View_SSearch.SortOpt=Opzione ordinamento
-&View_SSearch.SortOpt.0=Predefinito Filesystem
+&View_SSearch.SortOpt.0=Predefinito del filesystem
 &View_SSearch.SortOpt.1=Alfabetico
 &View_SSearch.SortOpt.2=ID Titolo
 &View_SSearch.SortOpt.3=Giocati di Recente
 &View_SSearch.SortOpt.4=Tempo di Gioco
-&View_SSearch.SortDir=Ordina per decrescente
+&View_SSearch.SortDir=Ordine decrescente
 &View_SSearch.HideUnApp=Nascondi applicazioni mai aperte
 &View_SSearch.OnlyFavApp=Mostra solo applicazioni preferite
 &View_SSearch.UnFav=Pulisci lista preferiti
@@ -277,8 +277,8 @@
 &View_Dialog.UpdaterNewVer.Title=Nuova versione trovata!
 &View_Dialog.UpdaterProgress.Description=Attendi il download della nuova versione. L'emulatore verrà riavviato immediatamente dopo l'installazione dei nuovi file.
 &View_Dialog.UpdaterProgress.Title=Download nuova versione in corso...
-&View_Settings.UsersTab.Hint.AllPad=!!! Uno degli utenti abilitati manca di un dispositivo di input.
+&View_Settings.UsersTab.Hint.AllPad=!!! Uno degli utenti abilitati non ha un dispositivo di input.
 &View_Settings.UsersTab.Hint.Init=!!! Nessun utente principale selezionato, si assume sia il primo utente.
 &View_Settings.UsersTab.Hint.NoUsr=!!! Nessun utente abilitato, non potrai avviare applicazioni.
-&View_Settings.UsersTab.Hint.PAudio=!!! Uno degli utenti abilitati manca di un output audio per il suono del gamepad.
+&View_Settings.UsersTab.Hint.PAudio=!!! Uno degli utenti abilitati non ha un output audio per il suono del gamepad.
 &View_Settings.UsersTab.Hint.UsrTooMuch=!!! Troppi utenti abilitati, verranno utilizzate solo le prime 4 voci.
