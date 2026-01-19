@@ -219,7 +219,7 @@
 &Notify.GameReportExists.Description=We already know about the problems in this application, click the button again to open the report page. Report info will be copied to your clipboard.
 &Notify.GameReportNotify.Title=Application report notification
 &Notify.NoAppFolder.Description=This folder either no longer exists or a system error has occurred.
-&Notify.NoLogs.Description=Failed to open "P7logs" folder, probably it doesn't even exist at all.
+&Notify.NoLogs.Description=Failed to open "logs" folder, probably it doesn't even exist at all.
 &Notify.NoReset.Description=You have no unsaved changes.
 &Notify.NoReset.Title=Nothing to reset!
 &Notify.NoSaveData.Description=SaveData folder not found. You have to run the application at least once to make this folder appear.
@@ -239,7 +239,7 @@
 &Notify.Welcome.Description=Hold your cursor over any item for two seconds to see the tooltip.
 &Notify.Welcome.Title=Welcome!
 &Notify.LogSize.Title=Logs folder is too big
-&Notify.LogSize.Description=Your "P7logs" folder is too big! It takes more than 512MB, you need to clear it manually.
+&Notify.LogSize.Description=Your "logs" folder is too big! It takes more than 512MB, you need to clear it manually.
 &View_Base.Load=Search
 &View_Base.Load.tt=Press this button to trigger the application scanner.
 &View_SSearch.UseLists=Used lists

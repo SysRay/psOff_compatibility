@@ -219,7 +219,7 @@
 &Notify.GameReportExists.Description=Siamo già a conoscenza dei problemi in questa applicazione, fai nuovamente clic sul pulsante per aprire la pagina del report. Le informazioni del report verranno copiate negli appunti.
 &Notify.GameReportNotify.Title=Notifica report applicazione
 &Notify.NoAppFolder.Description=Questa cartella non esiste più o si è verificato un errore di sistema.
-&Notify.NoLogs.Description=Impossibile aprire la cartella "P7logs", probabilmente non esiste affatto.
+&Notify.NoLogs.Description=Impossibile aprire la cartella "logs", probabilmente non esiste affatto.
 &Notify.NoReset.Description=Non hai modifiche non salvate.
 &Notify.NoReset.Title=Niente da annullare!
 &Notify.NoSaveData.Description=Cartella SaveData non trovata. Devi eseguire l'applicazione almeno una volta per far apparire questa cartella.
@@ -239,7 +239,7 @@
 &Notify.Welcome.Description=Tieni il cursore su qualsiasi elemento per due secondi per vedere il suggerimento.
 &Notify.Welcome.Title=Benvenuto!
 &Notify.LogSize.Title=La cartella dei log è troppo grande
-&Notify.LogSize.Description=La tua cartella "P7logs" è troppo grande! Occupa più di 512MB, devi pulirla manualmente.
+&Notify.LogSize.Description=La tua cartella "logs" è troppo grande! Occupa più di 512MB, devi pulirla manualmente.
 &View_Base.Load=Cerca
 &View_Base.Load.tt=Premi questo pulsante per avviare lo scanner delle applicazioni.
 &View_SSearch.UseLists=Elenchi usati

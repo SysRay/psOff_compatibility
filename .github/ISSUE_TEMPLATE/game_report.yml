@@ -53,7 +53,7 @@ body:
     attributes:
       label: Upload your log there
       description: |
-        Your emulator should generate logs in P7Logs folder, check it and upload the latest log there.
+        Your emulator should generate logs in "logs" folder, check it and upload the latest log there.
       placeholder: No logs :(
     validations:
       required: true

@@ -119,7 +119,7 @@
 &Notify.GameReportNotify.Title=Powiadomienie o raporcie aplikacji
 &Notify.AppScannerErr.Title=Skan aplikacji nie powiódł się
 &Notify.NoAppFolder.Description=Ten folder albo już nie istnieje, albo wystąpił błąd systemowy.
-&Notify.NoLogs.Description=Nie udało się otworzyć folderu „P7logs”, prawdopodobnie on w ogóle nie istnieje.
+&Notify.NoLogs.Description=Nie udało się otworzyć folderu „logs”, prawdopodobnie on w ogóle nie istnieje.
 &Notify.NoReset.Description=Nie masz żadnych niezapisanych zmian.
 &Notify.NoReset.Title=Nie ma nic do zresetowania!
 &Notify.NoSaveData.Description=Folder SaveData nie został znaleziony. Musisz uruchomić aplikację przynajmniej raz, aby ten folder się pojawił.

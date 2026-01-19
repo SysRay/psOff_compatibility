@@ -214,7 +214,7 @@
 &Notify.GameReportExists.Description=我们已经知道此游戏中的问题，再次点击按钮来打开报告页面。报告信息将会复制到你的剪贴板。
 &Notify.GameReportNotify.Title=应用程序报告提醒
 &Notify.NoAppFolder.Description=此目录不再存在或发生了一个系统错误。
-&Notify.NoLogs.Description=打开"P7logs"目录失败，可能它根本就不存在。
+&Notify.NoLogs.Description=打开"logs"目录失败，可能它根本就不存在。
 &Notify.NoReset.Description=你没有未保存的变更。
 &Notify.NoReset.Title=没有变更可重置！
 &Notify.NoSaveData.Description=未找到存档数据目录。你必须至少运行一次应用程序才能让目录可见。
@@ -234,7 +234,7 @@
 &Notify.Welcome.Description=将指针悬停在任意项目上2秒来查看工具提示。
 &Notify.Welcome.Title=欢迎！
 &Notify.LogSize.Title=日志目录过大
-&Notify.LogSize.Description=你的“P7logs”目录过大！占用超过512MB空间，请手动清理它。
+&Notify.LogSize.Description=你的“logs”目录过大！占用超过512MB空间，请手动清理它。
 &View_Base.Load=搜索
 &View_Base.Load.tt=按下此按钮来触发应用程序扫描器。
 &View_SSearch.UseLists=使用的列表

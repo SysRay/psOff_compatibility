@@ -206,7 +206,7 @@
 &Notify.GameReportExists.Description=Nous connaissons déjà les problèmes rencontrés avec cette application. Cliquez à nouveau sur le bouton pour ouvrir la page de rapport. Les informations du rapport seront copiées dans votre presse-papiers.
 &Notify.GameReportNotify.Title=Notification du rapport d'application
 &Notify.NoAppFolder.Description=Ce dossier n'existe plus ou une erreur système s'est produite.
-&Notify.NoLogs.Description=Échec de l'ouverture du dossier « P7logs ». Il n'existe probablement pas.
+&Notify.NoLogs.Description=Échec de l'ouverture du dossier « logs ». Il n'existe probablement pas.
 &Notify.NoReset.Description=Vous n'avez aucune modification non enregistrée.
 &Notify.NoReset.Title=Rien à réinitialiser !
 &Notify.NoSaveData.Description=Dossier SaveData introuvable. Vous devez exécuter l'application au moins une fois pour que ce dossier apparaisse.
