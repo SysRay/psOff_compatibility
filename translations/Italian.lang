@@ -11,6 +11,7 @@
 &View_Settings.Reset=Annulla modifiche
 &View_Settings.Save=Salva
 &View_Settings.RestartHint=Alcune delle impostazioni modificate verranno applicate dopo il riavvio dell'emulatore.
+&View_Settings.PadCalib.Warning=Per motivi di ottimizzazione, i dati letti dal gamepad verranno visualizzati solo quando l'applicazione PS4 sta leggendo i dati del gamepad. Puoi comunque regolare qualsiasi impostazione qui, tutto verrà salvato e applicato.
 &View_Settings.GeneralTab=Generale
 &View_Settings.GeneralTab.Country=Paese
 &View_Settings.GeneralTab.Country.tt=Questa impostazione specifica il paese da segnalare alle applicazioni avviate. Alcune applicazioni potrebbero applicare restrizioni regionali utilizzando questa impostazione.
@@ -25,6 +26,7 @@
 &View_Settings.GeneralTab.UpdateFreq.1=Settimanale
 &View_Settings.GeneralTab.UpdateFreq.2=Giornaliero
 &View_Settings.GeneralTab.UpdateFreq.3=Mai
+&View_Settings.GeneralTab.UiKey=Tasto Overlay
 &View_Settings.GeneralTab.TropKey=Chiave Trofei
 &View_Settings.GeneralTab.TropKey.tt=I dati dei trofei sulle console PlayStation sono crittografati.\nDovresti estrarre questa chiave dalla tua console PS4 e digitarla\nqui in formato esadecimale. Questa impostazione è facoltativa, ma\nse non specifichi la chiave corretta, le funzioni dell'applicazione\nrelative ai trofei non funzioneranno correttamente.\n\nDovresti riavviare l'applicazione per applicare questa impostazione.
 &View_Settings.GeneralTab.Tooltips=Mostra suggerimenti UI
@@ -37,6 +39,8 @@
 &View_Settings.GeneralTab.UpdateForce=Forza controllo aggiornamenti
 &View_Settings.GeneralTab.MouseLock=Blocca cursore del mouse
 &View_Settings.GeneralTab.MouseLock.tt=Se questa impostazione è attiva, il cursore del mouse sarà bloccato all'interno della finestra dell'emulatore\nse è in esecuzione un'applicazione. Se l'applicazione supporta l'input del mouse,\nogni movimento del mouse le verrà passato.
+&View_Settings.GeneralTab.DelLogs=Rimuovi tutti i vecchi log all'avvio
+&View_Settings.GeneralTab.DelLogs.tt=Se questa casella di controllo è abilitata, l'emulatore rimuoverà\ntutti i vecchi file di log dalla cartella dei log.
 &View_Settings.AppScanTab=Scanner App
 &View_Settings.AppScanTab.AutoLoad=Carica libreria applicazioni all'avvio
 &View_Settings.AppScanTab.AutoLoad.tt=Se questa casella di controllo è abilitata, l'emulatore caricherà automaticamente\nla tua libreria dalle cartelle già specificate.
@@ -62,6 +66,11 @@
 &View_Settings.AudioTab.BGMVolume.tt=Questa impostazione influisce solo sulla musica di sottofondo specifica\ndell'applicazione selezionata nella libreria. Impostare questo valore\na 0 disabiliterà completamente la musica di sottofondo.
 &View_Settings.AudioTab.GenOut=Altoparlante generale
 &View_Settings.AudioTab.GenOut.tt=Qui puoi selezionare il dispositivo di output a cui desideri inviare l'audio dall'applicazione.
+&View_Settings.NetworkTab=Rete
+&View_Settings.NetworkTab.NetAda=Scheda di rete
+&View_Settings.NetworkTab.DnsInfo=Questa tabella DNS è utilizzata solo nei giochi abilitati alla rete! Devi abilitare manualmente la funzionalità di rete per ogni titolo nello spoiler Impostazioni specifiche dell'applicazione. Specificare un punto prima del nome host significa "questo dominio e tutti i sottodomini" (es. ".example.com"). Il campo "Indirizzi" può contenere più di un indirizzo IP, separati da una virgola (es. "127.0.0.1,127.0.0.2,127.0.0.3").
+&View_Settings.NetworkTab.DnsTable.Host=Nome host
+&View_Settings.NetworkTab.DnsTable.Addrs=Indirizzi
 &View_Settings.UsersTab=Utenti
 &View_Settings.UsersTab.New=Nuovo utente
 &View_Settings.UsersTab.New.tt=Questo pulsante crea un nuovo utente.
@@ -81,8 +90,12 @@
 &View_Settings.UsersTab.Usr.PDev.tt=Qui puoi selezionare il dispositivo da utilizzare per questo utente. Se questo elenco è\nvuoto, puoi provare diversi backend di dispositivi sopra questa impostazione.
 &View_Settings.UsersTab.Usr.PAudio=Audio pad
 &View_Settings.UsersTab.Usr.PAudio.tt=Se l'applicazione in esecuzione supporta la riproduzione audio tramite\ngamepad, questa traccia audio verrà emessa tramite il dispositivo audio\nspecificato qui.\n\nAd esempio, il gioco PROTOTYPE 1 emette le comunicazioni radio\ntramite l'altoparlante del gamepad.\n\nQuesta impostazione può essere modificata durante la sessione dell'applicazione.
+&View_Settings.UsersTab.Usr.PMic=Microfono
+&View_Settings.UsersTab.Usr.PMic.tt=Se l'applicazione in esecuzione supporta o richiede l'input del microfono,\nquesto dispositivo verrà utilizzato come dispositivo AudioIn.\n\nQuesta impostazione può essere modificata durante la sessione dell'applicazione.
 &View_Settings.UsersTab.Usr.Remove=Rimuovi
 &View_Settings.UsersTab.Usr.Remove.tt=ATTENZIONE!!! Questa azione eliminerà tutti i dati di questo utente mai esistiti!\nTutti i dati salvati, i progressi dei trofei ecc. andranno persi PER SEMPRE.
+&View_Settings.UsersTab.Usr.Calibrate=Calibra
+&View_Settings.UsersTab.Usr.Calibrate.tt=Premi questo pulsante per aprire la finestra di calibrazione del gamepad.
 &View_Settings.UsersTab.Usr.UId=ID univoco:
 &View_Settings.FirmTab=Firmware
 &View_Settings.FirmTab.Lib=Percorso cartella firmware "common/lib"
@@ -92,7 +105,7 @@
 &View_Settings.AboutTab.HeadingText=psOff è un emulatore PlayStation 4 (livello di compatibilità) closed-source scritto in C++20. Il progetto è ancora nelle sue fasi iniziali e molti giochi potrebbero non funzionare ancora correttamente. Tuttavia, miglioriamo continuamente la compatibilità e le prestazioni. Rimani aggiornato tramite il nostro server Discord e il Compatibility Tracker (ci sono link a queste risorse in fondo a questa pagina).\n\nSviluppatori Principali:\n* Ray - Fondatore del Progetto (GitHub: @SysRay)\n* Daydreamer - Sviluppatore Secondario (GitHub: @igor725)\n\nQuesto progetto utilizza le seguenti librerie open source di terze parti:\n
 &View_Settings.AboutTab.License=Licenza
 &View_Settings.AboutTab.ThanksList=Ringraziamenti speciali alle seguenti persone che ci hanno aiutato durante il nostro percorso:
-&View_Settings.AboutTab.ThanksRedPrig=Innumerevole aiuto disinteressato all'intera comunità di emulazione PS4
+&View_Settings.AboutTab.ThanksRedPrig=Inestimabile aiuto disinteressato all'intera comunità di emulazione PS4
 &View_Settings.AboutTab.ThanksKrispy=Moderazione server Discord
 &View_Settings.AboutTab.AlphaTesting=Test Alfa
 &View_Settings.AboutTab.PublicContrib=Contributi a psOff_public
@@ -101,6 +114,8 @@
 &View_Settings.AboutTab.DiscordBoost=Boosting server Discord
 &View_Settings.AboutTab.ThanksJose=Diffusione di informazioni sull'emulatore sui social e altri tipi di aiuto
 &View_Settings.AboutTab.CnTranslation=Traduzione cinese
+&View_Settings.AboutTab.FrTranslation=Traduzione francese
+&View_Settings.AboutTab.ItTranslation=Traduzione italiana
 &View_Settings.AboutTab.PlTranslation=Traduzione polacca
 &View_Settings.AboutTab.Compat=La nostra lista di compatibilità
 &View_Settings.AboutTab.Discord=Il nostro server Discord
@@ -130,6 +145,14 @@
 &Details_View.AppSpecific.SkipMovies.tt=Se questa impostazione è attiva, l'emulatore salterà tutti i filmati\npre-renderizzati che l'applicazione tenta di riprodurre.
 &Details_View.AppSpecific.SkipAjm=Salta Audio Job Manager
 &Details_View.AppSpecific.SkipAjm.tt=Se questa impostazione è attiva, l'emulatore ignorerà qualsiasi chiamata alla\nlibreria libSceAjm. Attivare questa impostazione può risolvere crash\ne blocchi al costo di un audio parzialmente o totalmente mancante.
+&Details_View.AppSpecific.Networking=Abilita Rete (WIP)
+&Details_View.AppSpecific.Networking.tt=Se questa impostazione è attiva, l'emulatore abiliterà la funzionalità\ndi rete sperimentale, questa impostazione potrebbe rompere molti giochi!
+&Details_View.AppSpecific.ElfMismatch=Disabilita controllo versione SDK
+&Details_View.AppSpecific.ElfMismatch.tt=Se questa impostazione è attiva, l'emulatore ignorerà i problemi di versione SDK\ntra le librerie e il binario eseguibile.\nUsa questa opzione solo se sai cosa stai facendo!
+&Details_View.AppSpecific.NeoMode=Esegui in modalità Neo (PS4 Pro)
+&Details_View.AppSpecific.NeoMode.tt=Se questa impostazione è attiva, l'emulatore eseguirà questo titolo in modalità PS4 Pro.\nLimite FPS più alto, maggiore utilizzo della RAM, risoluzione 4k.
+&Details_View.AppSpecific.IntWorkAround=Abilita workaround intercettazione gamepad
+&Details_View.AppSpecific.IntWorkAround.tt=Se questo gioco continua a leggere le informazioni del gamepad anche quando\nl'overlay UI dell'emulatore è aperto, questa opzione può essere utilizzata per\nevitare input non intenzionali.
 &Details_View.CommunityPatches=Patch della community disponibili
 &Details_View.Patches.Incompat=Mostra patch potenzialmente incompatibili (MOLTO PERICOLOSO!!!)
 &Global.Name=Nome
@@ -146,6 +169,7 @@
 &Details_View.Trophies.CurrGame=Titolo attuale
 &Details_View.Trophies.CurrUser=Utente attuale
 &Details_View.Trophies.UnlockAt=Sbloccato il
+&Details_View.HintUIOpen=Premi il tasto della tastiera configurato nelle impostazioni o il pulsante "Share" sul gamepad per mostrare l'overlay dell'emulatore durante la sessione dell'applicazione.
 &CRun_View.BinPath=Percorso binario
 &CRun_View.RootPath=Percorso radice
 &CRun_View.Args=Argomenti esecuzione
@@ -162,6 +186,7 @@
 &Details_View.Trophies.Info.Hidden=Trofei nascosti:
 &Details_View.Trophies.Info.Shown=Trofei mostrati:
 &Details_View.Trophies.Info.Unlocked=Trofei sbloccati:
+&Details_View.Trophies.KeyError=La Chiave Trofei nelle impostazioni non è impostata o non è valida. Inserisci la chiave di decrittazione dei trofei per ottenere l'elenco corretto dei trofei qui. Senza la chiave dei trofei non sarai in grado di sbloccare i trofei nelle tue app, ogni trofeo sbloccato verrà ignorato. Dovrai sbloccare nuovamente il trofeo una volta installata una chiave valida.
 &Details_View.Trophies.NotFound=Questa applicazione non ha trofei!
 &Details_View.Trophies.Wait=Attendi un momento, stiamo generando l'elenco...
 &Details_View.Trophies.Grade.Bronze=Bronzo
@@ -176,6 +201,7 @@
 &Notify.AppAge.DescriptionR=Il contenuto di questa applicazione non ha restrizioni di età nella tua regione.
 &Notify.AppAge.Title=Restrizione età
 &Notify.AppScannerErr.Title=Scansione applicazioni fallita
+&Notify.AppScannerErr.Inconsist=Rilevata incoerenza nella libreria! Ricostruzione dell'elenco applicazioni...
 &Notify.AudioConnect.Title=Dispositivo audio connesso
 &Notify.AudioDisconnect.Title=Dispositivo audio disconnesso
 &Notify.CheckConsole.Description=Controlla il tuo terminale per maggiori dettagli.
@@ -193,7 +219,7 @@
 &Notify.GameReportExists.Description=Siamo già a conoscenza dei problemi in questa applicazione, fai nuovamente clic sul pulsante per aprire la pagina del report. Le informazioni del report verranno copiate negli appunti.
 &Notify.GameReportNotify.Title=Notifica report applicazione
 &Notify.NoAppFolder.Description=Questa cartella non esiste più o si è verificato un errore di sistema.
-&Notify.NoLogs.Description=Impossibile aprire la cartella "logs", probabilmente non esiste affatto.
+&Notify.NoLogs.Description=Impossibile aprire la cartella "P7logs", probabilmente non esiste affatto.
 &Notify.NoReset.Description=Non hai modifiche non salvate.
 &Notify.NoReset.Title=Niente da annullare!
 &Notify.NoSaveData.Description=Cartella SaveData non trovata. Devi eseguire l'applicazione almeno una volta per far apparire questa cartella.
@@ -212,6 +238,8 @@
 &Notify.UsrRemove.Title=Conferma rimozione utente
 &Notify.Welcome.Description=Tieni il cursore su qualsiasi elemento per due secondi per vedere il suggerimento.
 &Notify.Welcome.Title=Benvenuto!
+&Notify.LogSize.Title=La cartella dei log è troppo grande
+&Notify.LogSize.Description=La tua cartella "P7logs" è troppo grande! Occupa più di 512MB, devi pulirla manualmente.
 &View_Base.Load=Cerca
 &View_Base.Load.tt=Premi questo pulsante per avviare lo scanner delle applicazioni.
 &View_SSearch.UseLists=Elenchi usati
@@ -221,14 +249,15 @@
 &View_SSearch.MinSDK=SDK Minimo
 &View_SSearch.MaxSDK=SDK Massimo
 &View_SSearch.SortOpt=Opzione ordinamento
-&View_SSearch.SortOpt.0=Predefinito Filesystem
+&View_SSearch.SortOpt.0=Predefinito del filesystem
 &View_SSearch.SortOpt.1=Alfabetico
 &View_SSearch.SortOpt.2=ID Titolo
 &View_SSearch.SortOpt.3=Giocati di Recente
 &View_SSearch.SortOpt.4=Tempo di Gioco
-&View_SSearch.SortDir=Ordina per decrescente
+&View_SSearch.SortDir=Ordine decrescente
 &View_SSearch.HideUnApp=Nascondi applicazioni mai aperte
 &View_SSearch.OnlyFavApp=Mostra solo applicazioni preferite
+&View_SSearch.UnFav=Pulisci lista preferiti
 &View_Dialog.Error.EDesc=Codice errore:
 &View_Dialog.Error.EFacil=Struttura:
 &View_Dialog.Error.Title=Si è verificato un errore SCE!
@@ -248,8 +277,8 @@
 &View_Dialog.UpdaterNewVer.Title=Nuova versione trovata!
 &View_Dialog.UpdaterProgress.Description=Attendi il download della nuova versione. L'emulatore verrà riavviato immediatamente dopo l'installazione dei nuovi file.
 &View_Dialog.UpdaterProgress.Title=Download nuova versione in corso...
-&View_Settings.UsersTab.Hint.AllPad=!!! Uno degli utenti abilitati manca di un dispositivo di input.
+&View_Settings.UsersTab.Hint.AllPad=!!! Uno degli utenti abilitati non ha un dispositivo di input.
 &View_Settings.UsersTab.Hint.Init=!!! Nessun utente principale selezionato, si assume sia il primo utente.
 &View_Settings.UsersTab.Hint.NoUsr=!!! Nessun utente abilitato, non potrai avviare applicazioni.
-&View_Settings.UsersTab.Hint.PAudio=!!! Uno degli utenti abilitati manca di un output audio per il suono del gamepad.
+&View_Settings.UsersTab.Hint.PAudio=!!! Uno degli utenti abilitati non ha un output audio per il suono del gamepad.
 &View_Settings.UsersTab.Hint.UsrTooMuch=!!! Troppi utenti abilitati, verranno utilizzate solo le prime 4 voci.
