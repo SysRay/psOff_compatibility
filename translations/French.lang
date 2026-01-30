@@ -118,7 +118,7 @@
 &Details_View.Feedback=Envoyer un commentaire
 &Details_View.AppSpecific=Paramètres spécifiques à l'application
 &Details_View.AppSpecific.FrameRate=Limitation du nombre d'images
-&Détails Vue.App Spécifique.Frame Rate.tt=La modification de ce paramètre peut entraîner une image plus fluide si\nl'application prend en charge une fréquence d'images plus élevée.
+&Details_View.AppSpecific.FrameRate=La modification de ce paramètre peut entraîner une image plus fluide si\nl'application prend en charge une fréquence d'images plus élevée.
 &Details_View.AppSpecific.FrameRate.0=Valeur par défaut de l'application
 &Details_View.AppSpecific.FrameRate.1=Paramètre global de synchronisation verticale
 &Details_View.AppSpecific.FrameRate.2=Forcer la synchronisation verticale
@@ -138,8 +138,8 @@
 &Details_View.Patches.Download=Télécharger les derniers correctifs
 &Details_View.Patches.Disclaimer=En téléchargeant, en utilisant ou en distribuant ces correctifs créés par la communauté sur des fichiers exécutables et des bibliothèques partagées, vous reconnaissez que vous êtes seul responsable de toutes les conséquences juridiques, y compris le respect des lois sur les droits d'auteur et les licences, et acceptez que ces correctifs sont fournis « tels quels » sans aucune garantie, provoquant un dysfonctionnement du logiciel ou une perte de données, et qu'aucun support formel n'est garanti, étant entendu qu'une telle utilisation n'implique pas l'approbation des développeurs de logiciels d'origine et doit être conforme à toutes les lois locales, nationales et internationales pertinentes.
 &Details_View.Patches.Title=Titre
-&Details View.Trophies=Trophées et progression
-&Details View.Trophies.ShowSpoilers=Afficher les trophées masqués
+&Details_View.Trophies=Trophées et progression
+&Details_View.Trophies.ShowSpoilers=Afficher les trophées masqués
 &Details_View.Trophies.ShowSpoilers.tt=Spoilers ! Si vous cochez cette case, vous risquez de voir des choses que vous n'êtes pas censé voir pour le moment.
 &Details_View.Trophies.CurrGame=Titre actuel
 &Details_View.Trophies.CurrUser=Utilisateur actuel

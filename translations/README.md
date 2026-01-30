@@ -6,7 +6,7 @@ This folder contains files for translating the emulator’s user interface into 
 1. Translations must be written by someone who is fluent in the target language or a native speaker.
 2. Translations must not contain offensive or derogatory language that could offend readers.
 3. Incomplete translations are permitted.
-4. All proposed translations will be reviewed for accuracy and appropriateness using artificial intelligence to ensure they are free of errors and insults.
+4. All proposed translations will be reviewed for accuracy and appropriateness using emulator's built-in checks and AI to ensure they are free of errors and insults.
 5. Contributors who submit a new translation or correct an existing one will be acknowledged in the emulator’s “Thank You” list, unless they explicitly request otherwise.
 6. You can use the `.\trdiff.ps1 <target language name>` command to list all the changes in the English localization since the last commit to the target language file. For example: `.\trdiff.ps1 Russian`. This script does not analyze the language files themselves but instead shows a list of Git changes in the English localization since the last target language commit. Note that it may not always display all the necessary changes.
 
