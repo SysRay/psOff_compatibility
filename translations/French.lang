@@ -264,10 +264,9 @@
 &View_Settings.NetworkTab.DnsTable.Addrs=Addresses
 &View_Settings.AboutTab.FrTranslation=Traduction française
 &View_Settings.AboutTab.ItTranslation=Traduction italienne
-&Détails Voir.App Spécifique.Networking=Activer la mise en réseau (WIP)
-&Détails View.App Specific.Networking.tt=Si ce paramètre est actif, l’émulateur activera la fonctionnalité de réseautage expérimental, ce paramètre peut casser beaucoup de jeux !
+&Details_View.AppSpecific.Networking=Activer la mise en réseau (WIP)
+&Details_View.AppSpecific.Networking.tt=Si ce paramètre est actif, l’émulateur activera la fonctionnalité de réseautage expérimental, ce paramètre peut casser beaucoup de jeux !
 &Details_View.AppSpecific.ElfMismatch=Désactiver la vérification de la version du SDK
 &Details_View.AppSpecific.ElfMismatch.tt=Si ce paramètre est actif, l’émulateur ignorera les problèmes de version du SDK dans les bibliothèques et le binaire exécutable. Utilisez cette option uniquement si vous savez ce que vous faites !
 &Details_View.Trophies.KeyError=La clé du trophée dans les paramètres qui ne sont pas du tout définies ou invalides. Veuillez entrer la clé de décryptage des trophées afin d’obtenir la liste correcte des trophées ici. Sans la clé de trophée, vous ne pourrez pas débloquer les trophées dans vos applications, chaque trophée débloqué sera ignoré.&Details_View.AppSpecific.Networking=Enable Networking (WIP)
 &Details_View.AppSpecific.Networking.tt=If this setting is active, the emulator will enable experimental\nnetworking functionality, this setting may break a lot of games!
-&Details_View.AppSpecific.Networking=Enable Networking (WIP)
