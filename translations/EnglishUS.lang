@@ -34,6 +34,8 @@
 &View_Settings.GeneralTab.AgeRestrict=Show age restriction notification for application
 &View_Settings.GeneralTab.AgeRestrict.tt=If this checkbox is enabled, a message about the age limit\nwill be shown at the application startup, if it is set by the application developer.
 &View_Settings.GeneralTab.JapCn=Enable Chinese and Japanese characters support in UI (significantly increases RAM usage!)
+&View_Settings.GeneralTab.WGI=Enable Windows.Gaming.Input for SDL
+&View_Settings.GeneralTab.WGI.tt=Windows.Gaming.Input (WGI) is a Windows API that serves as a superset for\nall legacy input devices. Enabling this option may improve detection of older\ngamepads in the emulator, but it can break detection of newer ones as well.\nAlso, devices detected via WGI often require you to manually add a mapping\nin the "gamecontrollerdb.txt" file in the emulator's root folder. Note that this\nfile is never created automatically, so you must create it manually too.\nOnly use this option if you know what you're doing.
 &View_Settings.GeneralTab.CommStart=Apply enabled community patches on application startup
 &View_Settings.GeneralTab.DevGame=Show developer info in gameplay
 &View_Settings.GeneralTab.UpdateForce=Force Update Check
