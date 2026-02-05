@@ -66,6 +66,8 @@
 &View_Settings.AudioTab.GameVolume.tt=This setting affects all the sounds application make in general.\nIf the application has its own volume setting, it will be multiplied by this value.\nThis means that if you set this value to 0, the application will be completely\nsilent at all times, no matter what.\n\nThis setting can be changed in runtime.
 &View_Settings.AudioTab.BGMVolume=Background music volume
 &View_Settings.AudioTab.BGMVolume.tt=This setting only affects background music that is specific\nto the application you select in your library. Setting this value\nto 0 will disable background music completely.
+&View_Settings.AudioTab.MinVolume=Minimized state volume multiplier
+&View_Settings.AudioTab.MinVolume.tt=This setting adjusts the volume multiplier applied when you minimize the emulator window.\n\n0.00 - No sound at all when window is minimized;\n1.00 - Do not change volume when window is minimized.
 &View_Settings.AudioTab.GenOut=General Speaker
 &View_Settings.AudioTab.GenOut.tt=Here you can select the output device you want to send audio from application to.
 &View_Settings.NetworkTab=Network
