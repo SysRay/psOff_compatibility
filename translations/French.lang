@@ -11,15 +11,15 @@
 &View_Settings.GeneralTab.Country.tt=Ce paramètre spécifie le pays à signaler aux applications que vous lancez. Certaines applications peuvent appliquer des restrictions régionales grâce à ce paramètre.
 &View_Settings.GeneralTab.Lang=Langue
 &View_Settings.GeneralTab.Lang.tt=Ce paramètre spécifie la langue à utiliser dans l'interface utilisateur et les applications que vous lancez. Notez que si la traduction dans votre langue est manquante, l'interface utilisateur reviendra à l'anglais. Le comportement des applications dans ce cas peut varier.&View_Settings.GeneralTab.Lang.tt=This setting specifies the language to be used\nin the user interface and applications you launch.\nNote that if translation to your language is missing UI will\nfallback to English, the behavior applications\nin such case may vary.
-&View_Settings.GeneralTab.Update=Mettre à jour le canal
-&View_Settings.GeneralTab.Update.tt=Ce paramètre spécifie le canal de mise à jour de l'émulateur.\n\nStable - une nouvelle version pour ce canal sort environ une fois par mois.\nInstable - une nouvelle version pour ce canal sort une fois par semaine.
-&View_Settings.GeneralTab.UpdateChannel.0=Stable
-&View_Settings.GeneralTab.UpdateChannel.1=Instable
-&View_Settings.GeneralTab.UpdateFreq=Fréquence de mise à jour
-&View_Settings.GeneralTab.UpdateFreq.0=Mensuel
-&View_Settings.GeneralTab.UpdateFreq.1=Hebdomadaire
-&View_Settings.GeneralTab.UpdateFreq.2=Quotidien
-&View_Settings.GeneralTab.UpdateFreq.3=Jamais
+&View_Settings.UpdaterTab.Update=Mettre à jour le canal
+&View_Settings.UpdaterTab.Update.tt=Ce paramètre spécifie le canal de mise à jour de l'émulateur.\n\nStable - une nouvelle version pour ce canal sort environ une fois par mois.\nInstable - une nouvelle version pour ce canal sort une fois par semaine.
+&View_Settings.UpdaterTab.UpdateChannel.0=Stable
+&View_Settings.UpdaterTab.UpdateChannel.1=Instable
+&View_Settings.UpdaterTab.UpdateFreq=Fréquence de mise à jour
+&View_Settings.UpdaterTab.UpdateFreq.0=Mensuel
+&View_Settings.UpdaterTab.UpdateFreq.1=Hebdomadaire
+&View_Settings.UpdaterTab.UpdateFreq.2=Quotidien
+&View_Settings.UpdaterTab.UpdateFreq.3=Jamais
 &View_Settings.GeneralTab.TropKey=Clé de trophée
 &View_Settings.GeneralTab.TropKey.tt=Les données des trophées sur les consoles PlayStation sont chiffrées.\nVous devez récupérer cette clé depuis votre console PS4 et la saisir ici au format hexadécimal. Ce paramètre est facultatif, mais si vous ne spécifiez pas la clé correcte, les fonctions de l'application liées aux trophées ne fonctionneront pas correctement.\n\nVous devez redémarrer votre application pour appliquer ce paramètre.
 &View_Settings.GeneralTab.Tooltips.tt=Si vous désactivez cette option, les info-bulles comme celle-ci disparaîtront.
@@ -30,7 +30,7 @@
 &View_Settings.GeneralTab.JapCn=Activer la prise en charge des caractères chinois et japonais dans l'interface utilisateur Utilisation de la RAM !
 &View_Settings.GeneralTab.CommStart=Appliquer les correctifs communautaires activés au démarrage de l'application
 &View_Settings.GeneralTab.DevGame=Afficher les informations du développeur dans le jeu
-&View_Settings.GeneralTab.UpdateForce=Forcer la vérification des mises à jour
+&View_Settings.UpdaterTab.UpdateForce=Forcer la vérification des mises à jour
 &View_Settings.AppScanTab=Scanneur d'applications
 &View_Settings.AppScanTab.AutoLoad=Charger la bibliothèque d'applications au démarrage
 &View_Settings.AppScanTab.AutoLoad.tt=Si cette case est cochée, l'émulateur chargera automatiquement votre bibliothèque à partir des dossiers spécifiés.
@@ -241,8 +241,6 @@
 &View_Dialog.UpdaterChild.Description=Pour mettre à jour la version de votre émulateur, fermez d'abord l'application en cours d'exécution!
 &View_Dialog.UpdaterError.DescriptionConsole=Consultez la console pour plus de détails. L'émulateur sera complètement fermé une fois cette boîte de dialogue fermée.
 &View_Dialog.UpdaterError.Title=Échec de la mise à jour !
-&View_Dialog.UpdaterNewFFmpegVer.Description=Votre version de FFmpeg est obsolète. Souhaitez-vous la mettre à jour ?
-&View_Dialog.UpdaterNewVer.Description=Votre version de l'émulateur est obsolète. Souhaitez-vous la mettre à jour ?
 &View_Dialog.UpdaterNewVer.Title=Nouvelle version trouvée !
 &View_Dialog.UpdaterProgress.Description=Veuillez patienter jusqu'au téléchargement de la nouvelle version. L'émulateur redémarrera immédiatement après l'installation des nouveaux fichiers.
 &View_Dialog.UpdaterProgress.Title=Téléchargement d'une nouvelle version...
