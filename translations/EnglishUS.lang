@@ -95,6 +95,7 @@
 &View_Settings.FirmTab.Lib=Firmware folder "common/lib" path
 &View_Settings.FirmTab.Lib.tt=This value must either be empty or contain\nthe FULL path to the PS4 firmware folder of any version.\nIf nothing is selected in the list below, this setting\nwill be ignored.
 &View_Settings.FirmTab.ALib.tt=Here you can select the libraries to be loaded\nfrom the PS4 firmware directory above. If the firmware\npath is empty, all these checkboxes will be ignored.
+&View_Settings.UpdaterTab=Auto Updater
 &View_Settings.UpdaterTab.Update=Update channel
 &View_Settings.UpdaterTab.Update.tt=This setting specifies the update channel for emulator.\n\nStable - new release for this channel comes out about once a month.\nUnstable - new release for this channel comes out once a week.
 &View_Settings.UpdaterTab.UpdateForce=Force Update Check
@@ -247,6 +248,10 @@
 &Notify.Welcome.Title=Welcome!
 &Notify.LogSize.Title=Logs folder is too big
 &Notify.LogSize.Description=Your "logs" folder is too big! It takes more than 512MB, you need to clear it manually.
+&Notify.Updater.Title=Auto updater message
+&Notify.Updater.TooFast=Last update check was less than 1 minute ago! Try again later.
+&Notify.Updater.NoUpdates=No updates found, you're already using the latest version.
+&Notify.Updater.RestartRecomm=Auto updater has finished it's job! It is recommended to restart the emulator now.
 &View_Base.Load=Search
 &View_Base.Load.tt=Press this button to trigger the application scanner.
 &View_SSearch.UseLists=Used lists
