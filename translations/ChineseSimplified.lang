@@ -99,7 +99,7 @@
 &View_Settings.FirmTab.Lib.tt=此值必须为空或者包含到任意版本PS4固件目录的完整路径。\n\n如果在下方列表中未选中任何选项，这个设置将被忽略。
 &View_Settings.FirmTab.ALib.tt=此处可以选择需要从上方的PS4固件目录中载入的库。\n如果固件路径为空，所有的这些复选框都会被忽略。
 &View_Settings.AboutTab=关于
-&View_Settings.AboutTab.HeadingText=psOff是用C++20编写的一个闭源的PlayStation 4 模拟器 (兼容层)。此项目仍在初始阶段并且很多游戏在一段比较长的时间内都将不能正常运行，但是随着时间推移我们在稳步改进模拟器的兼容性和稳定性，因此请通过Discord和我们的Compatibility tracker保持关注。 (在此页面的底部有到这些资源的链接)。\n\n主要开发人员:\n* Ray - project founder (GitHub: @SysRay)\n* Daydreamer - secondary developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
+&View_Settings.AboutTab.HeadingText=psOff是用C++23编写的一个闭源的PlayStation 4 模拟器 (兼容层)。此项目仍在初始阶段并且很多游戏在一段比较长的时间内都将不能正常运行，但是随着时间推移我们在稳步改进模拟器的兼容性和稳定性，因此请通过Discord和我们的Compatibility tracker保持关注。 (在此页面的底部有到这些资源的链接)。\n\n主要开发人员:\n* Ray - project founder (GitHub: @SysRay)\n* Daydreamer - secondary developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
 &View_Settings.AboutTab.License=License
 &View_Settings.AboutTab.ThanksList=特别感谢下方的人员在我们的开发过程中给予我们的帮助:
 &View_Settings.AboutTab.ThanksRedPrig=Countless amount of selfless help to the entire PS4 emulation community

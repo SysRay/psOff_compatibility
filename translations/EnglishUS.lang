@@ -110,7 +110,7 @@
 &View_Settings.UpdaterTab.CheckFFmpeg=Check for new FFmpeg versions
 &View_Settings.UpdaterTab.CheckCommPatch=Check for new illusion0001's community patches
 &View_Settings.AboutTab=About
-&View_Settings.AboutTab.HeadingText=psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++20. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker (there's links to these resources on the bottom of this page).\n\nMain Developers:\n* Ray - Project Founder (GitHub: @SysRay)\n* Daydreamer - Secondary Developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
+&View_Settings.AboutTab.HeadingText=psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++23. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker (there's links to these resources on the bottom of this page).\n\nMain Developers:\n* Ray - Project Founder (GitHub: @SysRay)\n* Daydreamer - Secondary Developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
 &View_Settings.AboutTab.License=License
 &View_Settings.AboutTab.ThanksList=Special thanks to following persons who have helped us throughout our journey:
 &View_Settings.AboutTab.ThanksRedPrig=Countless amount of selfless help to the entire PS4 emulation community
