@@ -39,7 +39,7 @@
 &View_Settings.FirmTab.Lib.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania PS4 dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
 &View_Settings.FirmTab.ALib.tt=Tutaj możesz wybrać bibliotekę z oprogramowania PS4. Jeżeli ścieżka do oprogramowania jest pusta, to pole wyboru zostanie zignorowane.
 &View_Settings.AboutTab=Informacje
-&View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation 4, napisany w C++20. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
+&View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation 4, napisany w C++23. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
 &View_Settings.AboutTab.ThanksList=Specjalne podziękowania dla następujących osób, które pomagały nam w trakcie naszej podróży:
 &View_Base.Load=Szukaj
 &View_Base.Load.tt=Kliknij ten przycisk, aby wygenerować bibliotekę...
@@ -139,15 +139,15 @@
 &View_Base.GamesFilter.tt=Użyj tego pola, aby przefiltrować listę aplikacji poniżej.
 &Global.Yes=Tak
 &Global.No=Nie
-&View_Settings.GeneralTab.Update=Kanał aktualizacji
-&View_Settings.GeneralTab.Update.tt=To ustawienie zarządza kanałem aktualizacji emulatora. \n\nStabilne - aktualizacje pojawiają się co miesiąc.\nNiestabilne - aktualizacje pojawiają się co tydzień.
-&View_Settings.GeneralTab.UpdateChannel.0=Stabilne
-&View_Settings.GeneralTab.UpdateChannel.1=Niestabilne
-&View_Settings.GeneralTab.UpdateFreq=Częstotliwość aktualizacji
-&View_Settings.GeneralTab.UpdateFreq.0=Miesięczne
-&View_Settings.GeneralTab.UpdateFreq.1=Tygodniowe
-&View_Settings.GeneralTab.UpdateFreq.2=Dzienne
-&View_Settings.GeneralTab.UpdateFreq.3=Wyłączone
+&View_Settings.UpdaterTab.Update=Kanał aktualizacji
+&View_Settings.UpdaterTab.Update.tt=To ustawienie zarządza kanałem aktualizacji emulatora. \n\nStabilne - aktualizacje pojawiają się co miesiąc.\nNiestabilne - aktualizacje pojawiają się co tydzień.
+&View_Settings.UpdaterTab.UpdateChannel.0=Stabilne
+&View_Settings.UpdaterTab.UpdateChannel.1=Niestabilne
+&View_Settings.UpdaterTab.UpdateFreq=Częstotliwość aktualizacji
+&View_Settings.UpdaterTab.UpdateFreq.0=Miesięczne
+&View_Settings.UpdaterTab.UpdateFreq.1=Tygodniowe
+&View_Settings.UpdaterTab.UpdateFreq.2=Dzienne
+&View_Settings.UpdaterTab.UpdateFreq.3=Wyłączone
 &View_Settings.UsersTab.Usr.UId=Unikalne id:
 &View_Settings.AboutTab.ThanksRedPrig=Niezliczona ilość bezinteresownej pomocy dla całej społeczności emulacji PS4 <3
 &View_Settings.AboutTab.ThanksKrispy=Moderacja serwera Discord
@@ -189,7 +189,6 @@
 &View_Dialog.UpdaterError.DescriptionConsole=Sprawdź konsolę, aby uzyskać więcej szczegółów.
 &View_Dialog.UpdaterError.ExitBtn=Zamknij emulator
 &View_Dialog.UpdaterError.Title=Aktualizacja nie powiodła się!
-&View_Dialog.UpdaterNewVer.Description=Dostępna jest nowsza wersja emulatora. Czy chcesz dokonać aktualizacji?
 &View_Dialog.UpdaterNewVer.Title=Nowa wersja znaleziona!
 &View_Dialog.UpdaterProgress.Description=Proszę czekać na pobranie nowej wersji. Emulator uruchomi się ponownie zaraz po zainstalowaniu aktualizacji.
 &View_Dialog.UpdaterProgress.Title=Pobieranie nowej wersji...
@@ -202,7 +201,7 @@
 &View_Settings.GeneralTab.MouseLock.tt=Gdy to ustawienie jest aktywne, kursor myszy zostanie zablokowany wewnątrz okna emulatora\njeśli jakakolwiek aplikacja jest uruchomiona. Jeśli aplikacja obsługuje wejście myszy,\nkażdy ruch myszy zostanie do niej przekazany.
 &View_Settings.GeneralTab.DelLogs=Usuń wszystkie stare logi przy starcie
 &View_Settings.GeneralTab.DelLogs.tt=Gdy to ustawienie jest włączone, emulator usunie\nwszystkie stare logi z folderu "logs".
-&View_Settings.GeneralTab.UpdateForce=Wymuś sprawdzenie aktualizacji
+&View_Settings.UpdaterTab.UpdateForce=Wymuś sprawdzenie aktualizacji
 &View_Settings.AppScanTab=Skaner aplikacji
 &View_Settings.AppScanTab.AutoLoad=Automatyczne ładowanie biblioteki aplikacji przy starcie
 &View_Settings.AppScanTab.AutoLoad.tt=Gdy to ustawienie jest włączone, emulator automatycznie\nzaładuje bibliotekę z wcześniej wskazanych folderów.
@@ -281,4 +280,3 @@
 &Notify.LogSize.Description=Twój folder "logs" jest za duży! Waży więcej niż 512 MB, musisz go usunąć ręcznie.
 &Notify.LogSize.Title=Folder "logs" jest za duży
 &Notify.VulkanDbgLayer.Description=Nie udało się włączyć Vulkan Validation Layers. Upewnij się, że masz zainstalowaną kompatybilną wersję Vulkan SDK.
-&View_Dialog.UpdaterNewFFmpegVer.Description=Twoja wersja FFmpeg jest nieaktualna. Czy chcesz zaktualizować do najnowszej wersji?
