@@ -141,6 +141,7 @@
 &View_SSearch.SortDir=Сортировать по убыванию
 &View_SSearch.HideUnApp=Скрыть неиспользованные приложения
 &View_SSearch.OnlyFavApp=Показывать только избранные приложения
+&View_SSearch.OnlyPS4App=Скрыть PlayStation® 5 приложения
 &View_SSearch.UnFav=Очистить избранное
 &View_Base.Load=Поиск
 &View_Base.Load.tt=Нажмите эту кнопку чтобы запустить сканер приложений.
@@ -256,7 +257,7 @@
 &Notify.CustomRun.Title=Особый запуск
 &Notify.CustomRunCrash.InvalidParams=Неверные параметры особого запуска, исправьте их и попробуйте запустить снова.
 &Notify.AlreadyRunApp.Description=Другое приложение уже запущено!
-&Notify.CustomRunCrash.Description=Приложение упало! Проверьте Baical логи для получения дополнительной информации.
+&Notify.CustomRunCrash.Description=Приложение упало! Проверьте логи для получения дополнительной информации.
 &Notify.GameReportErr.Title=Генерация репорта провалилась
 &Notify.AppScannerErr.Title=Ошибка сканера
 &Notify.AppScannerErr.Inconsist=Обнаружено несоответстиве библиотеки! Список приложений пересоздаётся...

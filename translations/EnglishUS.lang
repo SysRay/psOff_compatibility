@@ -217,7 +217,7 @@
 &Notify.CommPatchWarn.Description=We do not accept reports with active community patches or application-specific settings at the moment, sorry.
 &Notify.CommPatchWarn.Title=Community patches warning
 &Notify.CustomRun.Title=Custom Run
-&Notify.CustomRunCrash.Description=Application just crashed! Check Baical logs for more details.
+&Notify.CustomRunCrash.Description=Application just crashed! Check logs for more details.
 &Notify.CustomRunCrash.InvalidParams=Invalid custom run parameters, change them and try again.
 &Notify.FFmissing.Description=Failed to load FFmpeg, you may experience missing audio or video in certain places.
 &Notify.Firmware.Title=Firmware libraries
@@ -269,6 +269,7 @@
 &View_SSearch.SortDir=Sort by descending
 &View_SSearch.HideUnApp=Hide never opened applications
 &View_SSearch.OnlyFavApp=Show only favorite applications
+&View_SSearch.OnlyPS4App=Hide PlayStation® 5 applications
 &View_SSearch.UnFav=Clear favorites list
 &View_Dialog.Error.EDesc=Error code:
 &View_Dialog.Error.EFacil=Facility:

@@ -196,7 +196,7 @@
 &Notify.CommPatchWarn.Description=Nous n'acceptons pas les signalements de correctifs communautaires actifs ni de paramètres spécifiques à l'application pour le moment.
 &Notify.CommPatchWarn.Title=Avertissement concernant les correctifs communautaires
 &Notify.CustomRun.Title=Exécution personnalisée
-&Notify.CustomRunCrash.Description=L'application vient de planter ! Consultez les journaux de Baical pour plus de détails.
+&Notify.CustomRunCrash.Description=L'application vient de planter ! Consultez les journaux pour plus de détails.
 &Notify.CustomRunCrash.InvalidParams=Paramètres d'exécution personnalisée non valides. Modifiez-les et réessayez.
 &Notify.FFmissing.Description=Échec du chargement de FFmpeg. Des fichiers audio ou vidéo peuvent manquer à certains endroits.
 &Notify.Firmware.Title=Bibliothèques de micrologiciels
