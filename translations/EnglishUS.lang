@@ -19,7 +19,7 @@
 &View_Settings.GeneralTab.Lang.tt=This setting specifies the language to be used\nin the user interface and applications you launch.\nNote that if translation to your language is missing UI will\nfallback to English, the behavior applications\nin such case may vary.
 &View_Settings.GeneralTab.UiKey=Overlay keybind
 &View_Settings.GeneralTab.TropKey=Trophy Key
-&View_Settings.GeneralTab.TropKey.tt=The trophy data on PlayStation consoles is encrypted.\nYou should dump this key from your PS4 console and type it\nhere in hexadecimal format. This setting is optional, but\nif you do not specify the correct key, application functions\nrelated to trophies will not work properly.\n\nYou should restart your application to apply this setting.
+&View_Settings.GeneralTab.TropKey.tt=The trophy data on PlayStation® consoles is encrypted.\nYou should dump this key from your PS4 console and type it\nhere in hexadecimal format. This setting is optional, but\nif you do not specify the correct key, application functions\nrelated to trophies will not work properly.\n\nYou should restart your application to apply this setting.
 &View_Settings.GeneralTab.Tooltips=Show UI tooltips
 &View_Settings.GeneralTab.Tooltips.tt=If you disable this option, tooltips like this one will go away.
 &View_Settings.GeneralTab.AgeRestrict=Show age restriction notification for application
@@ -110,7 +110,7 @@
 &View_Settings.UpdaterTab.CheckFFmpeg=Check for new FFmpeg versions
 &View_Settings.UpdaterTab.CheckCommPatch=Check for new illusion0001's community patches
 &View_Settings.AboutTab=About
-&View_Settings.AboutTab.HeadingText=psOff is a closed-source PlayStation 4 emulator (compatibility layer) written in C++23. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker (there's links to these resources on the bottom of this page).\n\nMain Developers:\n* Ray - Project Founder (GitHub: @SysRay)\n* Daydreamer - Secondary Developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
+&View_Settings.AboutTab.HeadingText=psOff is a closed-source PlayStation® 4 emulator (compatibility layer) written in C++23. The project is still in its early stages, and many games may not work properly yet. However, we are continuously improving compatibility and performance. Stay updated via our Discord server and Compatibility Tracker (there's links to these resources on the bottom of this page).\n\nMain Developers:\n* Ray - Project Founder (GitHub: @SysRay)\n* Daydreamer - Secondary Developer (GitHub: @igor725)\n\nThis project uses following third party open source libraries:\n
 &View_Settings.AboutTab.License=License
 &View_Settings.AboutTab.ThanksList=Special thanks to following persons who have helped us throughout our journey:
 &View_Settings.AboutTab.ThanksRedPrig=Countless amount of selfless help to the entire PS4 emulation community

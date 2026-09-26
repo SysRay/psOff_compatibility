@@ -28,7 +28,7 @@
 &View_Settings.UpdaterTab.UpdateFreq.3=Mai
 &View_Settings.GeneralTab.UiKey=Tasto Overlay
 &View_Settings.GeneralTab.TropKey=Chiave Trofei
-&View_Settings.GeneralTab.TropKey.tt=I dati dei trofei sulle console PlayStation sono crittografati.\nDovresti estrarre questa chiave dalla tua console PS4 e digitarla\nqui in formato esadecimale. Questa impostazione è facoltativa, ma\nse non specifichi la chiave corretta, le funzioni dell'applicazione\nrelative ai trofei non funzioneranno correttamente.\n\nDovresti riavviare l'applicazione per applicare questa impostazione.
+&View_Settings.GeneralTab.TropKey.tt=I dati dei trofei sulle console PlayStation® sono crittografati.\nDovresti estrarre questa chiave dalla tua console PS4 e digitarla\nqui in formato esadecimale. Questa impostazione è facoltativa, ma\nse non specifichi la chiave corretta, le funzioni dell'applicazione\nrelative ai trofei non funzioneranno correttamente.\n\nDovresti riavviare l'applicazione per applicare questa impostazione.
 &View_Settings.GeneralTab.Tooltips=Mostra suggerimenti UI
 &View_Settings.GeneralTab.Tooltips.tt=Se disabiliti questa opzione, i suggerimenti come questo scompariranno.
 &View_Settings.GeneralTab.AgeRestrict=Mostra notifica di restrizione età per l'applicazione
@@ -102,7 +102,7 @@
 &View_Settings.FirmTab.Lib.tt=Questo valore deve essere vuoto o contenere\nil percorso COMPLETO della cartella del firmware PS4 di qualsiasi versione.\nSe non viene selezionato nulla nell'elenco sottostante, questa impostazione\nverrà ignorata.
 &View_Settings.FirmTab.ALib.tt=Qui puoi selezionare le librerie da caricare\ndalla directory del firmware PS4 sopra indicata. Se il percorso del firmware\nè vuoto, tutte queste caselle di controllo verranno ignorate.
 &View_Settings.AboutTab=Informazioni
-&View_Settings.AboutTab.HeadingText=psOff è un emulatore PlayStation 4 (livello di compatibilità) closed-source scritto in C++23. Il progetto è ancora nelle sue fasi iniziali e molti giochi potrebbero non funzionare ancora correttamente. Tuttavia, miglioriamo continuamente la compatibilità e le prestazioni. Rimani aggiornato tramite il nostro server Discord e il Compatibility Tracker (ci sono link a queste risorse in fondo a questa pagina).\n\nSviluppatori Principali:\n* Ray - Fondatore del Progetto (GitHub: @SysRay)\n* Daydreamer - Sviluppatore Secondario (GitHub: @igor725)\n\nQuesto progetto utilizza le seguenti librerie open source di terze parti:\n
+&View_Settings.AboutTab.HeadingText=psOff è un emulatore PlayStation® 4 (livello di compatibilità) closed-source scritto in C++23. Il progetto è ancora nelle sue fasi iniziali e molti giochi potrebbero non funzionare ancora correttamente. Tuttavia, miglioriamo continuamente la compatibilità e le prestazioni. Rimani aggiornato tramite il nostro server Discord e il Compatibility Tracker (ci sono link a queste risorse in fondo a questa pagina).\n\nSviluppatori Principali:\n* Ray - Fondatore del Progetto (GitHub: @SysRay)\n* Daydreamer - Sviluppatore Secondario (GitHub: @igor725)\n\nQuesto progetto utilizza le seguenti librerie open source di terze parti:\n
 &View_Settings.AboutTab.License=Licenza
 &View_Settings.AboutTab.ThanksList=Ringraziamenti speciali alle seguenti persone che ci hanno aiutato durante il nostro percorso:
 &View_Settings.AboutTab.ThanksRedPrig=Inestimabile aiuto disinteressato all'intera comunità di emulazione PS4

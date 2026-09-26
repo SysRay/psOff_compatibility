@@ -10,7 +10,7 @@
 &View_Settings.GeneralTab.Lang=Język
 &View_Settings.GeneralTab.Lang.tt=To ustawienie zarządza językiem, który jest używany\nw interfejsie i w aplikacjach.
 &View_Settings.GeneralTab.TropKey=Klucz odszyfrowywania trofeów
-&View_Settings.GeneralTab.TropKey.tt=Dane trofeów na konsolach PlayStation są szyfrowane.\nPowinieneś zdobyć ten klucz z konsoli PS4 i wpisać go\ntutaj w formacie szesnastkowym.\nTo ustawienie jest opcjonalne, ale jeśli nie określisz\nprawidłowego klucza, funkcje aplikacji związane z trofeami\nnie będą działać poprawnie.\n\nPowinieneś ponownie uruchomić aplikację, aby zastosować to ustawienie.
+&View_Settings.GeneralTab.TropKey.tt=Dane trofeów na konsolach PlayStation® są szyfrowane.\nPowinieneś zdobyć ten klucz z konsoli PS4 i wpisać go\ntutaj w formacie szesnastkowym.\nTo ustawienie jest opcjonalne, ale jeśli nie określisz\nprawidłowego klucza, funkcje aplikacji związane z trofeami\nnie będą działać poprawnie.\n\nPowinieneś ponownie uruchomić aplikację, aby zastosować to ustawienie.
 &View_Settings.GeneralTab.Tooltips=Pokaż podpowiedzi w interfejsie
 &View_Settings.GeneralTab.Tooltips.tt=Jeżeli wyłączysz tą opcję to podpowiedzi takie jak ta znikną.
 &View_Settings.GeneralTab.JapCn=Włącz wsparcie dla chińskich i japońskich znaków w interfejsie użytkownika
@@ -39,7 +39,7 @@
 &View_Settings.FirmTab.Lib.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania PS4 dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
 &View_Settings.FirmTab.ALib.tt=Tutaj możesz wybrać bibliotekę z oprogramowania PS4. Jeżeli ścieżka do oprogramowania jest pusta, to pole wyboru zostanie zignorowane.
 &View_Settings.AboutTab=Informacje
-&View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation 4, napisany w C++23. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
+&View_Settings.AboutTab.HeadingText=psOff to closed-source emulator PlayStation® 4, napisany w C++23. Projekt znajduje się jeszcze we wczesnej fazie rozwoju, więc wiele gier nie będzie działać poprawnie przez jakiś czas. Jednak stale poprawiamy kompatybilność i wydajność emulatora, więc bądźcie z nami na bieżąco, korzystając z naszego Discorda i narzędzia do śledzenia listy kompatybilności (linki do tych zasobów znajdziecie na dole tej strony).\n\nGłówny deweloper:\n* Ray - założyciel i główny deweloper projektu (GitHub: @SysRay)\n* Daydreamer - drugi deweloper (GitHub: @igor725)\n\nProjekt korzysta z następujących zewnętrznych bibliotek open-source:\n
 &View_Settings.AboutTab.ThanksList=Specjalne podziękowania dla następujących osób, które pomagały nam w trakcie naszej podróży:
 &View_Base.Load=Szukaj
 &View_Base.Load.tt=Kliknij ten przycisk, aby wygenerować bibliotekę...
