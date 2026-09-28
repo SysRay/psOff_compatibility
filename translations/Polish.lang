@@ -35,7 +35,7 @@
 &View_Settings.AudioTab.GenOut.tt=Tutaj możesz wybrać wyjście audio do którego chcesz wysłać dźwięk z aplikacji.
 &View_Settings.UsersTab=Użytkownicy
 &View_Settings.FirmTab=Oprogramowanie
-&View_Settings.FirmTab.Lib=Ścieżka do folderu oprogramowania "common/lib"
+&View_Settings.FirmTab.Lib=Ścieżka do folderu oprogramowania
 &View_Settings.FirmTab.Lib.tt=Ta wartość musi być pusta lub musi zawierać pełną ścieżkę\ndo folderu oprogramowania PS4 dowolnej wersji.\n\nJeżeli nic nie zostanie wybrane z listy, to ustawienie zostanie zignorowane.
 &View_Settings.FirmTab.ALib.tt=Tutaj możesz wybrać bibliotekę z oprogramowania PS4. Jeżeli ścieżka do oprogramowania jest pusta, to pole wyboru zostanie zignorowane.
 &View_Settings.AboutTab=Informacje

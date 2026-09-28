@@ -81,7 +81,7 @@
 &View_Settings.UsersTab.Usr.Remove.tt=ATTENTION ! Cette action supprimera toutes les données de cet utilisateur !\nToutes les données enregistrées, la progression des trophées, etc. seront définitivement perdues.
 &View_Settings.UsersTab.Usr.UId=Identifiant unique :
 &View_Settings.FirmTab=Micrologiciel
-&View_Settings.FirmTab.Lib=Chemin du dossier du firmware « common/lib »
+&View_Settings.FirmTab.Lib=Chemin du dossier du firmware
 &View_Settings.FirmTab.Lib.tt=Cette valeur doit être vide ou contenir le chemin complet du dossier du firmware PS4, quelle que soit sa version. Si rien n'est sélectionné dans la liste ci-dessous, ce paramètre sera ignoré.
 &View_Settings.FirmTab.ALib.tt=Vous pouvez sélectionner ici les bibliothèques à charger depuis le répertoire du firmware PS4 ci-dessus. Si le chemin du firmware est vide, toutes ces cases seront ignorées.
 &View_Settings.AboutTab=À propos

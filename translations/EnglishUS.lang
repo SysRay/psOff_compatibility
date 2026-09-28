@@ -92,7 +92,7 @@
 &View_Settings.UsersTab.Usr.Calibrate.tt=Press this button to open gamepad calibration window.
 &View_Settings.UsersTab.Usr.UId=Unique id:
 &View_Settings.FirmTab=Firmware
-&View_Settings.FirmTab.Lib=Firmware folder "common/lib" path
+&View_Settings.FirmTab.Lib=Firmware folder path
 &View_Settings.FirmTab.Lib.tt=This value must either be empty or contain\nthe FULL path to the PS4 firmware folder of any version.\nIf nothing is selected in the list below, this setting\nwill be ignored.
 &View_Settings.FirmTab.ALib.tt=Here you can select the libraries to be loaded\nfrom the PS4 firmware directory above. If the firmware\npath is empty, all these checkboxes will be ignored.
 &View_Settings.UpdaterTab=Auto Updater

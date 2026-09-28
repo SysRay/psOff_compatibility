@@ -95,7 +95,7 @@
 &View_Settings.UsersTab.Usr.Remove.tt=警告！！！ 这个动作将删除此用户的所有数据！\n所有的存档、奖杯进度等将永久丢失。
 &View_Settings.UsersTab.Usr.UId=唯一ID：
 &View_Settings.FirmTab=固件
-&View_Settings.FirmTab.Lib=固件目录"common/lib"路径
+&View_Settings.FirmTab.Lib=固件目录路径
 &View_Settings.FirmTab.Lib.tt=此值必须为空或者包含到任意版本PS4固件目录的完整路径。\n\n如果在下方列表中未选中任何选项，这个设置将被忽略。
 &View_Settings.FirmTab.ALib.tt=此处可以选择需要从上方的PS4固件目录中载入的库。\n如果固件路径为空，所有的这些复选框都会被忽略。
 &View_Settings.AboutTab=关于
